@@ -1,0 +1,106 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{Dédicaces}{i}{chapter*.1}%
+\contentsline {chapter}{Remerciements}{ii}{chapter*.3}%
+\contentsline {chapter}{Moulakhass}{ii}{chapter*.3}%
+\contentsline {chapter}{Résumé}{iv}{chapter*.5}%
+\contentsline {chapter}{Abstract}{v}{chapter*.6}%
+\contentsline {chapter}{Liste des sigles et acronymes}{vi}{chapter*.7}%
+\contentsline {chapter}{Table des figures}{ix}{chapter*.8}%
+\contentsline {chapter}{Liste des tableaux}{x}{chapter*.9}%
+\contentsline {chapter}{Table des matières}{xiii}{chapter*.10}%
+\contentsline {chapter}{Introdcution}{1}{chapter*.11}%
+\contentsline {chapter}{\numberline {1}Contexte général du projet}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Présentation de l’entreprise d’accueil SQLI}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Groupe SQLI}{3}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.1}Activités du groupe}{3}{subsubsection.1.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.2}Chiffre Clés du groupe}{3}{subsubsection.1.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.1.3}Clients du groupe}{4}{subsubsection.1.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.2}SQLI Maroc}{5}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Présentation du projet}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Cadre du projet et problématique}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objectifs du projet}{7}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Conduite de projet}{8}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Equipe Cart, Checkout \&\ Payment}{8}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Méthodologie de travail : Scrum}{9}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Outils de collaboration:}{11}{subsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.3.1}Skype}{11}{subsubsection.1.3.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.3.2}Git}{11}{subsubsection.1.3.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3.3}GitLab}{12}{subsubsection.1.3.3.3}%
+\contentsline {chapter}{\numberline {2}Analyse et spécification des besoins}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Étude de l’existant}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Etude fonctionnelle et non fonctionnelle}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Exigences fonctionnelles}{15}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Identification des acteurs}{15}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Identification des fonctionnalités}{16}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Diagramme de cas d’utilisation}{17}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Description textuelle de cas d’utilisation}{19}{subsubsection.2.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.2.1.5}Diagramme de séquence de système}{22}{subsubsection.2.2.1.5}%
+\contentsline {subsection}{\numberline {2.2.2}Exigences non-fonctionnelles}{26}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {3}Conception de la solution}{28}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Prototypage}{29}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Choix de l'outil}{29}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Interface}{30}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Espace apprenant}{30}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Espace administrateur}{32}{subsubsection.3.1.2.2}%
+\contentsline {section}{\numberline {3.2}Architecture de l’application}{33}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Architecture physique}{33}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Architecture logique}{34}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Conception Détaillée}{36}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Diagramme de Classe}{36}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Diagramme de séquence détaillé}{36}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Réalisation}{41}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Langages et technologies utilisés}{42}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Modélisation : Langage UML}{42}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Couche présentation}{42}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}HTML}{42}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}CSS}{43}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}TypeScript}{43}{subsubsection.4.1.2.3}%
+\contentsline {subsection}{\numberline {4.1.3}Couche traitement : 4D}{44}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Librairies et frameworks utilisés}{44}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Couche présentation}{44}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}React}{44}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}Tailwind}{44}{subsubsection.4.2.1.2}%
+\contentsline {subsubsection}{\numberline {4.2.1.3}Axios}{45}{subsubsection.4.2.1.3}%
+\contentsline {section}{\numberline {4.3}Environnements et outils de développement utilisés}{45}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Visual Studio Code }{45}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}4D Client}{45}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}4D Serveur}{45}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Postman}{46}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}GitLab}{46}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Git}{47}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}StarUML}{47}{subsection.4.3.7}%
+\contentsline {section}{\numberline {4.4}Base de données }{47}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Sécurité}{49}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Implémentation des sessions}{49}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Roles et privilèges }{50}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Captures d'écran}{51}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Authentification}{51}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Espace Apprenant }{52}{subsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.1}Liste des formations}{52}{subsubsection.4.6.2.1}%
+\contentsline {subsubsection}{\numberline {4.6.2.2}Détails de la formation}{53}{subsubsection.4.6.2.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.3}Suivre une formation}{54}{subsubsection.4.6.2.3}%
+\contentsline {subsubsection}{\numberline {4.6.2.4}Liste des formateurs}{55}{subsubsection.4.6.2.4}%
+\contentsline {subsubsection}{\numberline {4.6.2.5}Historique}{56}{subsubsection.4.6.2.5}%
+\contentsline {subsubsection}{\numberline {4.6.2.6}Favoris}{57}{subsubsection.4.6.2.6}%
+\contentsline {subsubsection}{\numberline {4.6.2.7}Page de profil}{58}{subsubsection.4.6.2.7}%
+\contentsline {subsubsection}{\numberline {4.6.2.8}Page de profile d’un formateur}{59}{subsubsection.4.6.2.8}%
+\contentsline {subsection}{\numberline {4.6.3}Espace Administrateur}{60}{subsection.4.6.3}%
+\contentsline {subsubsection}{\numberline {4.6.3.1}Tableau de bord}{60}{subsubsection.4.6.3.1}%
+\contentsline {subsubsection}{\numberline {4.6.3.2}Liste des formations et ajout formation}{61}{subsubsection.4.6.3.2}%
+\contentsline {subsubsection}{\numberline {4.6.3.3}Liste des formateurs et ajout formateur }{62}{subsubsection.4.6.3.3}%
+\contentsline {subsubsection}{\numberline {4.6.3.4}Liste des apprenants et ajout apprenant}{63}{subsubsection.4.6.3.4}%
+\contentsline {section}{\numberline {4.7}Validation des exigences}{64}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Exigences Fonctionnelles}{64}{subsection.4.7.1}%
+\contentsline {subsubsection}{\numberline {4.7.1.1}Authentification}{64}{subsubsection.4.7.1.1}%
+\contentsline {subsubsection}{\numberline {4.7.1.2}Apprenant}{65}{subsubsection.4.7.1.2}%
+\contentsline {paragraph}{\numberline {4.7.1.2.1}Gestion des Abonnements}{65}{paragraph.4.7.1.2.1}%
+\contentsline {paragraph}{\numberline {4.7.1.2.2}Gestion des Formations pour les Apprenants}{65}{paragraph.4.7.1.2.2}%
+\contentsline {paragraph}{\numberline {4.7.1.2.3}Gestion de Profil}{65}{paragraph.4.7.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.7.1.3}Administrateur}{65}{subsubsection.4.7.1.3}%
+\contentsline {paragraph}{\numberline {4.7.1.3.1}Gestion des Formations pour les Administrateurs}{65}{paragraph.4.7.1.3.1}%
+\contentsline {paragraph}{\numberline {4.7.1.3.2}Gestion des Apprenants pour les Administrateurs}{65}{paragraph.4.7.1.3.2}%
+\contentsline {paragraph}{\numberline {4.7.1.3.3}Gestion des Formateurs pour les Administrateurs}{65}{paragraph.4.7.1.3.3}%
+\contentsline {paragraph}{\numberline {4.7.1.3.4}Consultation des Statistiques}{66}{paragraph.4.7.1.3.4}%
+\contentsline {subsection}{\numberline {4.7.2}Exigences Non Fonctionnelles}{66}{subsection.4.7.2}%
+\contentsline {chapter}{Conclusion}{68}{appendix*.75}%
+\contentsline {chapter}{Références}{68}{appendix*.75}%
