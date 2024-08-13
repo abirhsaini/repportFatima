@@ -22,85 +22,83 @@
 \contentsline {section}{\numberline {1.3}Conduite de projet}{8}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Présentation des Équipes du Projet}{8}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Méthodologie de travail : Scrum}{10}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Outils de collaboration}{10}{subsection.1.3.3}%
-\contentsline {subsubsection}{\numberline {1.3.3.1}Skype}{10}{subsubsection.1.3.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.3.2}Git}{11}{subsubsection.1.3.3.2}%
-\contentsline {subsubsection}{\numberline {1.3.3.3}GitLab}{11}{subsubsection.1.3.3.3}%
-\contentsline {chapter}{\numberline {2}Analyse et spécification des besoins}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Étude de l’existant}{14}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Etude fonctionnelle et non fonctionnelle}{14}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Exigences fonctionnelles}{14}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Identification des acteurs}{14}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Identification des fonctionnalités}{15}{subsubsection.2.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}Diagramme de cas d’utilisation}{16}{subsubsection.2.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.2.1.4}Description textuelle de cas d’utilisation}{18}{subsubsection.2.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.2.1.5}Diagramme de séquence de système}{21}{subsubsection.2.2.1.5}%
-\contentsline {subsection}{\numberline {2.2.2}Exigences non-fonctionnelles}{25}{subsection.2.2.2}%
-\contentsline {chapter}{\numberline {3}Conception de la solution}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Prototypage}{28}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Choix de l'outil}{28}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Interface}{29}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Espace apprenant}{29}{subsubsection.3.1.2.1}%
-\contentsline {subsubsection}{\numberline {3.1.2.2}Espace administrateur}{31}{subsubsection.3.1.2.2}%
-\contentsline {section}{\numberline {3.2}Architecture de l’application}{32}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Architecture physique}{32}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Architecture logique}{33}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Conception Détaillée}{35}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Diagramme de Classe}{35}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Diagramme de séquence détaillé}{35}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Réalisation}{40}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Langages et technologies utilisés}{41}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Modélisation : Langage UML}{41}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Couche présentation}{41}{subsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.2.1}HTML}{41}{subsubsection.4.1.2.1}%
-\contentsline {subsubsection}{\numberline {4.1.2.2}CSS}{42}{subsubsection.4.1.2.2}%
-\contentsline {subsubsection}{\numberline {4.1.2.3}TypeScript}{42}{subsubsection.4.1.2.3}%
-\contentsline {subsection}{\numberline {4.1.3}Couche traitement : 4D}{43}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Librairies et frameworks utilisés}{43}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Couche présentation}{43}{subsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.1}React}{43}{subsubsection.4.2.1.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.2}Tailwind}{43}{subsubsection.4.2.1.2}%
-\contentsline {subsubsection}{\numberline {4.2.1.3}Axios}{44}{subsubsection.4.2.1.3}%
-\contentsline {section}{\numberline {4.3}Environnements et outils de développement utilisés}{44}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Visual Studio Code }{44}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}4D Client}{44}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}4D Serveur}{44}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Postman}{45}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}GitLab}{45}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Git}{46}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}StarUML}{46}{subsection.4.3.7}%
-\contentsline {section}{\numberline {4.4}Base de données }{46}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Sécurité}{48}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Implémentation des sessions}{48}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Roles et privilèges }{49}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}Captures d'écran}{50}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Authentification}{50}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Espace Apprenant }{51}{subsection.4.6.2}%
-\contentsline {subsubsection}{\numberline {4.6.2.1}Liste des formations}{51}{subsubsection.4.6.2.1}%
-\contentsline {subsubsection}{\numberline {4.6.2.2}Détails de la formation}{52}{subsubsection.4.6.2.2}%
-\contentsline {subsubsection}{\numberline {4.6.2.3}Suivre une formation}{53}{subsubsection.4.6.2.3}%
-\contentsline {subsubsection}{\numberline {4.6.2.4}Liste des formateurs}{54}{subsubsection.4.6.2.4}%
-\contentsline {subsubsection}{\numberline {4.6.2.5}Historique}{55}{subsubsection.4.6.2.5}%
-\contentsline {subsubsection}{\numberline {4.6.2.6}Favoris}{56}{subsubsection.4.6.2.6}%
-\contentsline {subsubsection}{\numberline {4.6.2.7}Page de profil}{57}{subsubsection.4.6.2.7}%
-\contentsline {subsubsection}{\numberline {4.6.2.8}Page de profile d’un formateur}{58}{subsubsection.4.6.2.8}%
-\contentsline {subsection}{\numberline {4.6.3}Espace Administrateur}{59}{subsection.4.6.3}%
-\contentsline {subsubsection}{\numberline {4.6.3.1}Tableau de bord}{59}{subsubsection.4.6.3.1}%
-\contentsline {subsubsection}{\numberline {4.6.3.2}Liste des formations et ajout formation}{60}{subsubsection.4.6.3.2}%
-\contentsline {subsubsection}{\numberline {4.6.3.3}Liste des formateurs et ajout formateur }{61}{subsubsection.4.6.3.3}%
-\contentsline {subsubsection}{\numberline {4.6.3.4}Liste des apprenants et ajout apprenant}{62}{subsubsection.4.6.3.4}%
-\contentsline {section}{\numberline {4.7}Validation des exigences}{63}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Exigences Fonctionnelles}{63}{subsection.4.7.1}%
-\contentsline {subsubsection}{\numberline {4.7.1.1}Authentification}{63}{subsubsection.4.7.1.1}%
-\contentsline {subsubsection}{\numberline {4.7.1.2}Apprenant}{64}{subsubsection.4.7.1.2}%
-\contentsline {paragraph}{\numberline {4.7.1.2.1}Gestion des Abonnements}{64}{paragraph.4.7.1.2.1}%
-\contentsline {paragraph}{\numberline {4.7.1.2.2}Gestion des Formations pour les Apprenants}{64}{paragraph.4.7.1.2.2}%
-\contentsline {paragraph}{\numberline {4.7.1.2.3}Gestion de Profil}{64}{paragraph.4.7.1.2.3}%
-\contentsline {subsubsection}{\numberline {4.7.1.3}Administrateur}{64}{subsubsection.4.7.1.3}%
-\contentsline {paragraph}{\numberline {4.7.1.3.1}Gestion des Formations pour les Administrateurs}{64}{paragraph.4.7.1.3.1}%
-\contentsline {paragraph}{\numberline {4.7.1.3.2}Gestion des Apprenants pour les Administrateurs}{64}{paragraph.4.7.1.3.2}%
-\contentsline {paragraph}{\numberline {4.7.1.3.3}Gestion des Formateurs pour les Administrateurs}{64}{paragraph.4.7.1.3.3}%
-\contentsline {paragraph}{\numberline {4.7.1.3.4}Consultation des Statistiques}{65}{paragraph.4.7.1.3.4}%
-\contentsline {subsection}{\numberline {4.7.2}Exigences Non Fonctionnelles}{65}{subsection.4.7.2}%
-\contentsline {chapter}{Conclusion}{67}{appendix*.72}%
-\contentsline {chapter}{Références}{67}{appendix*.72}%
+\contentsline {subsection}{\numberline {1.3.3}Capitalisation et suivi}{11}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Planification du projet}{13}{subsection.1.3.4}%
+\contentsline {chapter}{\numberline {2}Analyse et spécification des besoins}{16}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Étude de l’existant}{17}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Etude fonctionnelle et non fonctionnelle}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Exigences fonctionnelles}{17}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Identification des acteurs}{17}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Identification des fonctionnalités}{18}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Diagramme de cas d’utilisation}{19}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Description textuelle de cas d’utilisation}{21}{subsubsection.2.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.2.1.5}Diagramme de séquence de système}{24}{subsubsection.2.2.1.5}%
+\contentsline {subsection}{\numberline {2.2.2}Exigences non-fonctionnelles}{28}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {3}Conception de la solution}{30}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Prototypage}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Choix de l'outil}{31}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Interface}{32}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Espace apprenant}{32}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Espace administrateur}{34}{subsubsection.3.1.2.2}%
+\contentsline {section}{\numberline {3.2}Architecture de l’application}{35}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Architecture physique}{35}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Architecture logique}{36}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Conception Détaillée}{38}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Diagramme de Classe}{38}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Diagramme de séquence détaillé}{38}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Réalisation}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Langages et technologies utilisés}{44}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Modélisation : Langage UML}{44}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Couche présentation}{44}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}HTML}{44}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}CSS}{45}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}TypeScript}{45}{subsubsection.4.1.2.3}%
+\contentsline {subsection}{\numberline {4.1.3}Couche traitement : 4D}{46}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Librairies et frameworks utilisés}{46}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Couche présentation}{46}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}React}{46}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}Tailwind}{46}{subsubsection.4.2.1.2}%
+\contentsline {subsubsection}{\numberline {4.2.1.3}Axios}{47}{subsubsection.4.2.1.3}%
+\contentsline {section}{\numberline {4.3}Environnements et outils de développement utilisés}{47}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Visual Studio Code }{47}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}4D Client}{47}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}4D Serveur}{47}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Postman}{48}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}GitLab}{48}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Git}{49}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}StarUML}{49}{subsection.4.3.7}%
+\contentsline {section}{\numberline {4.4}Base de données }{49}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Sécurité}{51}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Implémentation des sessions}{51}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Roles et privilèges }{52}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Captures d'écran}{53}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Authentification}{53}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Espace Apprenant }{54}{subsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.1}Liste des formations}{54}{subsubsection.4.6.2.1}%
+\contentsline {subsubsection}{\numberline {4.6.2.2}Détails de la formation}{55}{subsubsection.4.6.2.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.3}Suivre une formation}{56}{subsubsection.4.6.2.3}%
+\contentsline {subsubsection}{\numberline {4.6.2.4}Liste des formateurs}{57}{subsubsection.4.6.2.4}%
+\contentsline {subsubsection}{\numberline {4.6.2.5}Historique}{58}{subsubsection.4.6.2.5}%
+\contentsline {subsubsection}{\numberline {4.6.2.6}Favoris}{59}{subsubsection.4.6.2.6}%
+\contentsline {subsubsection}{\numberline {4.6.2.7}Page de profil}{60}{subsubsection.4.6.2.7}%
+\contentsline {subsubsection}{\numberline {4.6.2.8}Page de profile d’un formateur}{61}{subsubsection.4.6.2.8}%
+\contentsline {subsection}{\numberline {4.6.3}Espace Administrateur}{62}{subsection.4.6.3}%
+\contentsline {subsubsection}{\numberline {4.6.3.1}Tableau de bord}{62}{subsubsection.4.6.3.1}%
+\contentsline {subsubsection}{\numberline {4.6.3.2}Liste des formations et ajout formation}{63}{subsubsection.4.6.3.2}%
+\contentsline {subsubsection}{\numberline {4.6.3.3}Liste des formateurs et ajout formateur }{64}{subsubsection.4.6.3.3}%
+\contentsline {subsubsection}{\numberline {4.6.3.4}Liste des apprenants et ajout apprenant}{65}{subsubsection.4.6.3.4}%
+\contentsline {section}{\numberline {4.7}Validation des exigences}{66}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Exigences Fonctionnelles}{66}{subsection.4.7.1}%
+\contentsline {subsubsection}{\numberline {4.7.1.1}Authentification}{66}{subsubsection.4.7.1.1}%
+\contentsline {subsubsection}{\numberline {4.7.1.2}Apprenant}{67}{subsubsection.4.7.1.2}%
+\contentsline {paragraph}{\numberline {4.7.1.2.1}Gestion des Abonnements}{67}{paragraph.4.7.1.2.1}%
+\contentsline {paragraph}{\numberline {4.7.1.2.2}Gestion des Formations pour les Apprenants}{67}{paragraph.4.7.1.2.2}%
+\contentsline {paragraph}{\numberline {4.7.1.2.3}Gestion de Profil}{67}{paragraph.4.7.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.7.1.3}Administrateur}{67}{subsubsection.4.7.1.3}%
+\contentsline {paragraph}{\numberline {4.7.1.3.1}Gestion des Formations pour les Administrateurs}{67}{paragraph.4.7.1.3.1}%
+\contentsline {paragraph}{\numberline {4.7.1.3.2}Gestion des Apprenants pour les Administrateurs}{67}{paragraph.4.7.1.3.2}%
+\contentsline {paragraph}{\numberline {4.7.1.3.3}Gestion des Formateurs pour les Administrateurs}{67}{paragraph.4.7.1.3.3}%
+\contentsline {paragraph}{\numberline {4.7.1.3.4}Consultation des Statistiques}{68}{paragraph.4.7.1.3.4}%
+\contentsline {subsection}{\numberline {4.7.2}Exigences Non Fonctionnelles}{68}{subsection.4.7.2}%
+\contentsline {chapter}{Conclusion}{70}{appendix*.69}%
+\contentsline {chapter}{Références}{70}{appendix*.69}%

@@ -7,61 +7,61 @@
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Départements de SQLI}}{6}{figure.caption.16}%
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Structure de l'équipe Seasonal Event}}{9}{figure.1.5}%
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Structure de l'équipe Cart Checkout \& Payment}}{9}{figure.1.6}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Skype Logo}}{10}{figure.caption.17}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Logo Git}}{11}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Logo GitLab}}{11}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Page d’accueil de Confluence}}{12}{figure.1.7}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Backlog du projet sur Azure DevOps}}{12}{figure.1.8}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Clendrier des formations}}{14}{figure.1.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de cas d’utilisation d'apprenant}}{17}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d’utilisation d'administrateur}}{17}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme De Séquence De l'Authentification}}{22}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme De Séquence d'Ajouter Une Formation}}{23}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme De Séquence D'ajouter Formateur}}{24}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de cas d’utilisation d'apprenant}}{20}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d’utilisation d'administrateur}}{20}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme De Séquence De l'Authentification}}{25}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme De Séquence d'Ajouter Une Formation}}{26}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme De Séquence D'ajouter Formateur}}{27}{figure.caption.26}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Logo Figma}}{28}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Figma: Page Login}}{29}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Figma: Page Home}}{29}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Figma: Page des Formations}}{29}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Figma: Page Suivre Formation }}{29}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Figma: Page Overview}}{30}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Figma: Page des Chapitres }}{30}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Figma: Page Détails d'un Formateur}}{31}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Figma: Page des Chapitres}}{31}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Figma: Page Tableau De Board}}{31}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Figma: Page D'ajout De Formation}}{31}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Architecture physique de système.}}{32}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Architecture logique de système.}}{33}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Orda Data Model Class}}{34}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Diagramme de Classe}}{35}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Diagramme de séquence détaillé de l'authentification}}{36}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Diagramme de séquence détaillé d’ajouter une formation}}{37}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Diagramme de séquence détaillé d’ajouter un formateur}}{38}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Logo Figma}}{31}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Figma: Page Login}}{32}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Figma: Page Home}}{32}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Figma: Page des Formations}}{32}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Figma: Page Suivre Formation }}{32}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Figma: Page Overview}}{33}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Figma: Page des Chapitres }}{33}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Figma: Page Détails d'un Formateur}}{34}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Figma: Page des Chapitres}}{34}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Figma: Page Tableau De Board}}{34}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Figma: Page D'ajout De Formation}}{34}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Architecture physique de système.}}{35}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Architecture logique de système.}}{36}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Orda Data Model Class}}{37}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Diagramme de Classe}}{38}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Diagramme de séquence détaillé de l'authentification}}{39}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Diagramme de séquence détaillé d’ajouter une formation}}{40}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Diagramme de séquence détaillé d’ajouter un formateur}}{41}{figure.caption.39}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo UML}}{41}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo HTML}}{41}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Logo CSS}}{42}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Logo TypeScript}}{42}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Logo React}}{43}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Logo Tailwind}}{43}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Logo Visual Studio Code }}{44}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Logo Postman}}{45}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Logo GitLab}}{45}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Logo Git}}{46}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Logo StarUML}}{46}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Création de la base de données en 4D}}{47}{figure.caption.54}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Exemple de relation N vers N}}{48}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Attribut Alias}}{48}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Schéma des sessions extensibles}}{49}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Schéma des privilèges en 4D}}{50}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces La page d'authentification}}{51}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Liste des formations}}{52}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Détails d'une formation}}{53}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Regarder Formation}}{54}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces la liste Des Formateurs}}{55}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Page D'Historique}}{56}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Page de Favoris}}{57}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Page de Profil}}{58}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Page de profil d’un formateur}}{59}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Page de tableau de bord}}{60}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Page de Liste des formations et ajout formation}}{61}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Page de liste des formateurs et ajout formateur }}{62}{figure.caption.70}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Page de liste des apprenants et ajout apprenant}}{63}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo UML}}{44}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo HTML}}{44}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Logo CSS}}{45}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Logo TypeScript}}{45}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Logo React}}{46}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Logo Tailwind}}{46}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Logo Visual Studio Code }}{47}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Logo Postman}}{48}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Logo GitLab}}{48}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Logo Git}}{49}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Logo StarUML}}{49}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Création de la base de données en 4D}}{50}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Exemple de relation N vers N}}{51}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Attribut Alias}}{51}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Schéma des sessions extensibles}}{52}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Schéma des privilèges en 4D}}{53}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces La page d'authentification}}{54}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Liste des formations}}{55}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Détails d'une formation}}{56}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Regarder Formation}}{57}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces la liste Des Formateurs}}{58}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Page D'Historique}}{59}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Page de Favoris}}{60}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Page de Profil}}{61}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Page de profil d’un formateur}}{62}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Page de tableau de bord}}{63}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Page de Liste des formations et ajout formation}}{64}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Page de liste des formateurs et ajout formateur }}{65}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Page de liste des apprenants et ajout apprenant}}{66}{figure.caption.68}%
