@@ -562,6 +562,7 @@ INPUT ./Logos/ZLAFA.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmro12.tfm
 INPUT ./Frontmatter/Dedication.tex
 INPUT ./Frontmatter/Dedication.tex
 INPUT ./Frontmatter/Dedication.tex
@@ -588,7 +589,6 @@ INPUT ./Figures/abstract.png
 INPUT ./Figures/abstract.png
 INPUT ./Figures/abstract.png
 INPUT ./Figures/abstract.png
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmro12.tfm
 INPUT ./Frontmatter/Abstract.tex
 INPUT ./Frontmatter/Abstract.tex
 INPUT ./Frontmatter/Abstract.tex

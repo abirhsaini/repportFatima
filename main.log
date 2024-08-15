@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.22)  16 AUG 2024 00:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.22)  16 AUG 2024 00:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1222,20 +1222,20 @@ File: Logos/ZLAFA.png Graphic file (type png)
 <use Logos/ZLAFA.png>
 Package pdftex.def Info: Logos/ZLAFA.png  used on input line 51.
 (pdftex.def)             Requested size: 356.71596pt x 136.52092pt.
-) [1
+ [1
 
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./Logos/Logo_INPT.png> <./Logos/SQLI_LOGO.png> <./Logos/ZLAFA.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./Logos/Logo_INPT.png> <./Logos/SQLI_LOGO.png> <./Logos/ZLAFA.png>]) [2]
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.76 \frontmatter
-                  [1
+                  [2
 
 
 
 ] (./Frontmatter/Dedication.tex
-<Figures/dedicace.png, id=165, 597.60106pt x 602.25pt>
+<Figures/dedicace.png, id=169, 597.60106pt x 602.25pt>
 File: Figures/dedicace.png Graphic file (type png)
 <use Figures/dedicace.png>
 Package pdftex.def Info: Figures/dedicace.png  used on input line 51.
@@ -1248,7 +1248,7 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 51--52
 ) (./Frontmatter/Remerciements.tex [1
 
  <./Figures/dedicace.png>]) (./Frontmatter/Résumé.tex
-<Figures/abstract.png, id=172, 598.05455pt x 845.85674pt>
+<Figures/abstract.png, id=176, 598.05455pt x 845.85674pt>
 File: Figures/abstract.png Graphic file (type png)
 <use Figures/abstract.png>
 Package pdftex.def Info: Figures/abstract.png  used on input line 7.
@@ -1307,7 +1307,12 @@ l.1 \chapter
 
 ]
 Chapitre 1.
-[2
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8 \newpage
+             [2
 
 ]
 File: Logos/SQLI_LOGO.png Graphic file (type png)
@@ -1315,12 +1320,12 @@ File: Logos/SQLI_LOGO.png Graphic file (type png)
 Package pdftex.def Info: Logos/SQLI_LOGO.png  used on input line 20.
 (pdftex.def)             Requested size: 114.16171pt x 46.54155pt.
  [3]
-<Figures/cle chiffre.png, id=294, 770.88pt x 578.16pt>
+<Figures/cle chiffre.png, id=297, 770.88pt x 578.16pt>
 File: Figures/cle chiffre.png Graphic file (type png)
 <use Figures/cle chiffre.png>
 Package pdftex.def Info: Figures/cle chiffre.png  used on input line 48.
 (pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
-<Figures/sqli partenaire .png, id=296, 1229.59375pt x 465.74pt>
+<Figures/sqli partenaire .png, id=299, 1229.59375pt x 465.74pt>
 File: Figures/sqli partenaire .png Graphic file (type png)
 <use Figures/sqli partenaire .png>
 Package pdftex.def Info: Figures/sqli partenaire .png  used on input line 58.
@@ -1331,13 +1336,13 @@ Underfull \hbox (badness 1231) in paragraph at lines 94--94
  []
 
 [5 <./Figures/sqli partenaire .png>]
-<Figures/departement.png, id=316, 770.88pt x 578.16pt>
+<Figures/departement.png, id=319, 770.88pt x 578.16pt>
 File: Figures/departement.png Graphic file (type png)
 <use Figures/departement.png>
 Package pdftex.def Info: Figures/departement.png  used on input line 117.
 (pdftex.def)             Requested size: 398.33858pt x 298.7482pt.
  [6 <./Figures/departement.png>] [7]
-<Figures/Seasonal Event Team.png, id=329, 1445.4pt x 813.0375pt>
+<Figures/Seasonal Event Team.png, id=332, 1445.4pt x 813.0375pt>
 File: Figures/Seasonal Event Team.png Graphic file (type png)
 <use Figures/Seasonal Event Team.png>
 Package pdftex.def Info: Figures/Seasonal Event Team.png  used on input line 174.
@@ -1354,7 +1359,7 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 174--175
  []
 
 [8]
-<Figures/Cart Checkout & Payment.png, id=334, 1445.4pt x 813.0375pt>
+<Figures/Cart Checkout & Payment.png, id=337, 1445.4pt x 813.0375pt>
 File: Figures/Cart Checkout & Payment.png Graphic file (type png)
 <use Figures/Cart Checkout & Payment.png>
 Package pdftex.def Info: Figures/Cart Checkout & Payment.png  used on input line 181.
@@ -1375,7 +1380,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 19
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [10{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-<Figures/Confluence Documentation.png, id=347, 1155.1155pt x 548.0475pt>
+<Figures/Confluence Documentation.png, id=350, 1155.1155pt x 548.0475pt>
 File: Figures/Confluence Documentation.png Graphic file (type png)
 <use Figures/Confluence Documentation.png>
 Package pdftex.def Info: Figures/Confluence Documentation.png  used on input line 223.
@@ -1392,7 +1397,7 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 223--224
  []
 
 [11]
-<Figures/azure DevOps-tickets.png, id=352, 1445.4pt x 813.0375pt>
+<Figures/azure DevOps-tickets.png, id=355, 1445.4pt x 813.0375pt>
 File: Figures/azure DevOps-tickets.png Graphic file (type png)
 <use Figures/azure DevOps-tickets.png>
 Package pdftex.def Info: Figures/azure DevOps-tickets.png  used on input line 233.
@@ -1404,7 +1409,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [12 <./Figures/Confluence Documentation.png> <./Figures/azure DevOps-tickets.png>]
-<Figures/formation.png, id=359, 1155.1155pt x 549.252pt>
+<Figures/formation.png, id=363, 1155.1155pt x 549.252pt>
 File: Figures/formation.png Graphic file (type png)
 <use Figures/formation.png>
 Package pdftex.def Info: Figures/formation.png  used on input line 254.
@@ -1430,7 +1435,7 @@ Chapitre 2.
 [16
 
 ] [17]
-<Figures/processus.jpeg, id=386, 1528.71124pt x 561.09625pt>
+<Figures/processus.jpeg, id=389, 1528.71124pt x 561.09625pt>
 File: Figures/processus.jpeg Graphic file (type jpg)
 <use Figures/processus.jpeg>
 Package pdftex.def Info: Figures/processus.jpeg  used on input line 37.
@@ -1723,10 +1728,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  100i,12n,96p,2386b,3015s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsco10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (38 pages, 4923204 bytes).
+Output written on main.pdf (39 pages, 4923588 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 433 compressed objects within 5 object streams
+ 527 PDF objects out of 1000 (max. 8388607)
+ 435 compressed objects within 5 object streams
  112 named destinations out of 1000 (max. 500000)
  363 words of extra memory for PDF output out of 10000 (max. 10000000)
 
