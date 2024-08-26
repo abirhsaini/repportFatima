@@ -53,13 +53,19 @@ Pour mieux comprendre le fonctionnement de ces composants, examinons le flux du 
     \item \textbf{Suivi :} Fluent assure la gestion des statuts de commande et informe Hybris pour la mise à jour du client.
 \end{enumerate}
 \section{Etude fonctionnelle et non fonctionnelle}
-
 Dans le cadre de l'intégration de Payconiq à la plateforme e-commerce du client, il est essentiel de définir clairement les besoins fonctionnels et non fonctionnels du projet. 
 Cette étude permettra d'identifier les exigences spécifiques liées à cette intégration, assurant ainsi une mise en œuvre réussie et une expérience utilisateur optimale. 
+
 \subsection{Exigences fonctionnelles}
 
 \subsubsection{Identification des fonctionnalités}
-
+\begin{itemize}
+    \item [$\bullet$]\textbf{Sélection de Payconiq comme méthode de paiement :} L'option Payconiq doit être disponible lors de la finalisation de la commande, présentée de manière intuitive et clairement distinguée parmi les autres choix de paiement.
+    \item [$\bullet$]\textbf{Génération et affichage du QR Code pour le paiement :} Lors de la confirmation de la commande avec Payconiq, un QR code unique est généré automatiquement et affiché à l'utilisateur pour permettre un paiement sécurisé via l'application Payconiq.
+    \item [$\bullet$]\textbf{Suivi des transactions dans l'historique des commandes :} Les transactions effectuées avec Payconiq sont accessibles dans l'historique des commandes de l'utilisateur, avec une identification claire comprenant la date, le montant et l'état du paiement.
+    \item [$\bullet$]\textbf{Envoi d'un email de confirmation de commande :} Après la finalisation de la commande, un email de confirmation est envoyé à l'utilisateur, incluant les détails de la commande, la méthode de paiement utilisée (Payconiq), le montant total et les informations de suivi de la commande.
+    \item [$\bullet$]\textbf{Message d'erreur en cas d'échec du paiement :} En cas d'échec du paiement avec Payconiq, un message d'erreur explicite informe l'utilisateur du problème, avec des options de paiement alternatives proposées pour finaliser la transaction sans interruption.
+\end{itemize}
 
 \subsubsection{Diagramme de cas d’utilisation}
 
@@ -71,8 +77,14 @@ Cette étude permettra d'identifier les exigences spécifiques liées à cette i
 
 \subsection{Exigences non-fonctionnelles}
 
+Les exigences non-fonctionnelles sont essentielles pour améliorer la qualité des services de la plateforme, notamment en termes de sécurité, de maintenabilité et de disponibilité. Elles garantissent non seulement une expérience utilisateur optimale, mais aussi la pérennité et l'efficacité du système face aux évolutions technologiques et aux besoins des utilisateurs. Parmi ces exigences, on peut citer :
 
-Ce sont les besoins qui permettent d’améliorer la qualité des services de la plateforme comme la convivialité et l’ergonomie des interfaces et l’amélioration du temps de réponse. Parmi ces besoins, on cite :
+\begin{itemize}
+    \item [$\bullet$]\textbf{Sécurité :} La protection des informations sensibles des utilisateurs est cruciale dans tout système de paiement en ligne. L'intégration de Payconiq requiert une attention particulière à ces aspects pour éviter tout accès non autorisé et toute manipulation malveillante des données.
+    \item [$\bullet$]\textbf{Maintenabilité :} La maintenabilité du système est essentielle pour garantir sa longévité et sa capacité à évoluer. Un code clair, bien structuré, et conforme aux meilleures pratiques de développement facilite l'ajout de nouvelles fonctionnalités et permet une correction rapide des bugs. Une bonne maintenabilité permet aux équipes de développement de diagnostiquer et de résoudre efficacement les problèmes, de déployer des mises à jour sans perturber le fonctionnement du système, et d'adapter rapidement le système aux évolutions technologiques et aux besoins des utilisateurs.
+    \item [$\bullet$]\textbf{Disponibilité :} Le système doit être conçu pour faciliter le diagnostic, la résolution des problèmes, le déploiement des mises à jour, et l’adaptation aux évolutions technologiques et aux besoins des utilisateurs.
+\end{itemize}
+
 
 \section*{Conclusion}
 La phase d'analyse de l'existant et de spécification des besoins est cruciale pour le succès de notre projet. Nous avons abordé cette phase en examinant l'architecture actuelle, en identifiant les acteurs clés et les cas d'utilisation spécifiques au marché belge. Ensuite nous avons entamé l'analyse des besoins fonctionnels et non fonctionnels. Dans les chapitres suivants, nous aborderons la conception détaillée du projet d'intégration.
