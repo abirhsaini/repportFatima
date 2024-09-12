@@ -96,6 +96,14 @@ Dans le cadre de l'utilisation de la solution Hybris, il est conseillé de suivr
 Adopter cette architecture permet non seulement une meilleure organisation du code, mais aussi d'assurer une évolutivité et une maintenance aisée à long terme.
 
 \section{Diagramme de classe}
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/class.png}
+    \captionof{figure}{Diagramme de classe}
+\end{center}
+
+La figure ci-dessus représente le diagramme de classe de notre système. Un Client peut passer plusieurs Commandes (représentées par la classe AbstractOrder), et chaque commande est associée à une Transaction de paiement (PaymentTransaction). Cette transaction contient des détails tels que le fournisseur de paiement, le montant prévu, et les identifiants du marchand. Elle est liée à une ou plusieurs Entrées de transaction (PaymentTransactionEntry), qui décrivent des aspects spécifiques comme le type de transaction, le montant, l'heure, et l'état de la transaction. Les informations de paiement sont représentées par la classe PaymentInfo, qui inclut le mode de paiement (défini par l'énumération PaymentModeType), et peut être associée à une Adresse. Une spécialisation de PaymentInfo, nommée PayconiqPaymentInfo, est utilisée pour les transactions via Payconiq. Le système gère également les devises via la classe Currency, qui est associée aux transactions de paiement. En somme, ce diagramme modélise la partie structurelle d'un volet de la gestion de paiement dans notre site e-commerce où les clients effectuent des paiements par divers moyens.
+
 \section{Diagramme de séquence}
 
 \begin{center}

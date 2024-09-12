@@ -47,15 +47,15 @@
 \contentsline {subsection}{\numberline {3.3.2}Architecture externe}{31}{subsection.3.3.2}%
 \contentsline {section}{\numberline {3.4}Architecture applicative}{31}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Diagramme de classe}{33}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Diagramme de séquence}{33}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Implémentation et Validation}{35}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Technologies utilisées}{36}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}JEE (JSP)}{36}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Illustration des Fonctionnalités Développées}{39}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Analyse et Correction des Anomalies}{52}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Tests et Validation}{53}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Tests}{53}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Validation des besoins fonctionnels}{54}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Validation des besoins non fonctionnels}{54}{subsection.4.4.3}%
-\contentsline {chapter}{Conclusion}{56}{appendix*.17}%
-\contentsline {chapter}{Références}{56}{appendix*.17}%
+\contentsline {section}{\numberline {3.6}Diagramme de séquence}{34}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Implémentation et Validation}{36}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Technologies utilisées}{37}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}JEE (JSP)}{37}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Illustration de l'Intégration de la Méthode de Paiement}{40}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Analyse et Correction des Anomalies}{53}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Tests et Validation}{54}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Tests}{54}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Validation des besoins fonctionnels}{55}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Validation des besoins non fonctionnels}{55}{subsection.4.4.3}%
+\contentsline {chapter}{Conclusion}{57}{appendix*.17}%
+\contentsline {chapter}{Références}{57}{appendix*.17}%
