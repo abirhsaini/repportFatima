@@ -13,10 +13,18 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Processus du paiement}}{18}{figure.2.1}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d'utilisation}}{20}{figure.2.2}%
 \addvspace {10\p@ }
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture globale de l'application E-commerce}}{24}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Architecture de backend de l'application E-commerce}}{26}{figure.3.2}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Architecture de backend de l'application E-commerce}}{28}{figure.3.3}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Architecture de backend de l'application E-commerce}}{28}{figure.3.4}%
+=======
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture globale de l'application E-commerce}}{22}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Architecture de backend de l'application E-commerce}}{24}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Architecture de backend de l'application E-commerce}}{26}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Architecture de backend de l'application E-commerce}}{26}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Architecture Applicative de l'application E-commerce}}{28}{figure.3.5}%
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Activation de Payconiq}}{31}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Disponibilité de Payconiq dans la boutique en ligne}}{32}{figure.4.2}%

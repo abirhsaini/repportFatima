@@ -591,6 +591,7 @@ INPUT ./main.toc
 INPUT ./main.toc
 INPUT main.toc
 OUTPUT main.toc
+<<<<<<< HEAD
 INPUT ./Chapitres/Chapitre1.tex
 INPUT ./Chapitres/Chapitre1.tex
 INPUT Chapitres/Chapitre1.tex
@@ -778,6 +779,139 @@ INPUT Endmatter/Conclusion.tex
 INPUT ./Endmatter/Bibliography.tex
 INPUT ./Endmatter/Bibliography.tex
 INPUT Endmatter/Bibliography.tex
+=======
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmro12.tfm
+INPUT .\Chapitres\Chapitre1.tex
+INPUT .\Chapitres\Chapitre1.tex
+INPUT Chapitres\Chapitre1.tex
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT .\Logos\SQLI_LOGO.png
+INPUT .\Logos\SQLI_LOGO.png
+INPUT .\Logos\SQLI_LOGO.png
+INPUT .\Logos\SQLI_LOGO.png
+INPUT .\Figures\cle chiffre.png
+INPUT .\Figures\cle chiffre.png
+INPUT .\Figures\cle chiffre.png
+INPUT .\Figures\cle chiffre.png
+INPUT .\Figures\cle chiffre.png
+INPUT .\Figures\cle chiffre.png
+INPUT .\Figures\cle chiffre.png
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri12.tfm
+INPUT .\Figures\sqli partenaire .png
+INPUT .\Figures\sqli partenaire .png
+INPUT .\Figures\sqli partenaire .png
+INPUT .\Figures\sqli partenaire .png
+INPUT .\Figures\sqli partenaire .png
+INPUT .\Figures\sqli partenaire .png
+INPUT .\Figures\sqli partenaire .png
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT .\Figures\departement.png
+INPUT .\Figures\departement.png
+INPUT .\Figures\departement.png
+INPUT .\Figures\departement.png
+INPUT .\Figures\departement.png
+INPUT .\Figures\departement.png
+INPUT .\Figures\departement.png
+INPUT .\Figures\Seasonal Event Team.png
+INPUT .\Figures\Seasonal Event Team.png
+INPUT .\Figures\Seasonal Event Team.png
+INPUT .\Figures\Seasonal Event Team.png
+INPUT .\Figures\Seasonal Event Team.png
+INPUT .\Figures\Seasonal Event Team.png
+INPUT .\Figures\Seasonal Event Team.png
+INPUT .\Figures\Cart Checkout & Payment.png
+INPUT .\Figures\Cart Checkout & Payment.png
+INPUT .\Figures\Cart Checkout & Payment.png
+INPUT .\Figures\Cart Checkout & Payment.png
+INPUT .\Figures\Cart Checkout & Payment.png
+INPUT .\Figures\Cart Checkout & Payment.png
+INPUT .\Figures\Cart Checkout & Payment.png
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmbx12.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbxi10.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
+INPUT .\Figures\Confluence Documentation.png
+INPUT .\Figures\Confluence Documentation.png
+INPUT .\Figures\Confluence Documentation.png
+INPUT .\Figures\Confluence Documentation.png
+INPUT .\Figures\Confluence Documentation.png
+INPUT .\Figures\Confluence Documentation.png
+INPUT .\Figures\Confluence Documentation.png
+INPUT .\Figures\azure DevOps-tickets.png
+INPUT .\Figures\azure DevOps-tickets.png
+INPUT .\Figures\azure DevOps-tickets.png
+INPUT .\Figures\azure DevOps-tickets.png
+INPUT .\Figures\azure DevOps-tickets.png
+INPUT .\Figures\azure DevOps-tickets.png
+INPUT .\Figures\azure DevOps-tickets.png
+INPUT .\Figures\formation.png
+INPUT .\Figures\formation.png
+INPUT .\Figures\formation.png
+INPUT .\Figures\formation.png
+INPUT .\Figures\formation.png
+INPUT .\Figures\formation.png
+INPUT .\Figures\formation.png
+INPUT .\Chapitres\Chapitre2.tex
+INPUT .\Chapitres\Chapitre2.tex
+INPUT Chapitres\Chapitre2.tex
+INPUT .\Figures\processus.jpeg
+INPUT .\Figures\processus.jpeg
+INPUT .\Figures\processus.jpeg
+INPUT .\Figures\processus.jpeg
+INPUT .\Figures\processus.jpeg
+INPUT .\Figures\processus.jpeg
+INPUT .\Figures\processus.jpeg
+INPUT .\Chapitres\Chapitre3.tex
+INPUT .\Chapitres\Chapitre3.tex
+INPUT Chapitres\Chapitre3.tex
+INPUT .\Figures\architectureGlobale.png
+INPUT .\Figures\architectureGlobale.png
+INPUT .\Figures\architectureGlobale.png
+INPUT .\Figures\architectureGlobale.png
+INPUT .\Figures\architectureGlobale.png
+INPUT .\Figures\architectureGlobale.png
+INPUT .\Figures\architectureGlobale.png
+INPUT .\Figures\architecturebacend.png
+INPUT .\Figures\architecturebacend.png
+INPUT .\Figures\architecturebacend.png
+INPUT .\Figures\architecturebacend.png
+INPUT .\Figures\architecturebacend.png
+INPUT .\Figures\architecturebacend.png
+INPUT .\Figures\architecturebacend.png
+INPUT .\Figures\Test.png
+INPUT .\Figures\Test.png
+INPUT .\Figures\Test.png
+INPUT .\Figures\Test.png
+INPUT .\Figures\Test.png
+INPUT .\Figures\Test.png
+INPUT .\Figures\Test.png
+INPUT .\Figures\UAT.png
+INPUT .\Figures\UAT.png
+INPUT .\Figures\UAT.png
+INPUT .\Figures\UAT.png
+INPUT .\Figures\UAT.png
+INPUT .\Figures\UAT.png
+INPUT .\Figures\UAT.png
+INPUT .\Figures\Dto.png
+INPUT .\Figures\Dto.png
+INPUT .\Figures\Dto.png
+INPUT .\Figures\Dto.png
+INPUT .\Figures\Dto.png
+INPUT .\Figures\Dto.png
+INPUT .\Figures\Dto.png
+INPUT .\Chapitres\Chapitre4.tex
+INPUT .\Chapitres\Chapitre4.tex
+INPUT Chapitres\Chapitre4.tex
+INPUT .\Endmatter\Conclusion.tex
+INPUT .\Endmatter\Conclusion.tex
+INPUT Endmatter\Conclusion.tex
+INPUT .\Endmatter\Bibliography.tex
+INPUT .\Endmatter\Bibliography.tex
+INPUT Endmatter\Bibliography.tex
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 INPUT main.aux
 INPUT ./Frontmatter/Page_de_Garde_EN.aux
 INPUT ./Frontmatter/Page_de_Garde_EN.aux

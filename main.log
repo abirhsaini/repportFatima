@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.22)  12 SEP 2024 00:54
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.1)  11 SEP 2024 07:27
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1069,6 +1073,9 @@ LaTeX Warning: Label `fig:processus' multiply defined.
 
 LaTeX Warning: Label `fig:processus' multiply defined.
 
+
+LaTeX Warning: Label `fig:processus' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1171,13 +1178,22 @@ Package caption Info: End \AtBeginDocument code.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/arabtex/alocal.sty (ArabTeX) 3.11 local stub, 26.02.2006) (ArabTeX) version 3.11s (02.07.2006): second phase of patching)
 \openout2 = `Frontmatter/Page_de_Garde_EN.aux'.
 
+<<<<<<< HEAD
  (./Frontmatter/Page_de_Garde_EN.tex
 <Logos/Logo_INPT.png, id=158, 1203.49625pt x 592.2125pt>
+=======
+ (Frontmatter/Page_de_Garde_EN.tex
+<Logos/Logo_INPT.png, id=149, 1203.49625pt x 592.2125pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Logos/Logo_INPT.png Graphic file (type png)
 <use Logos/Logo_INPT.png>
 Package pdftex.def Info: Logos/Logo_INPT.png  used on input line 3.
 (pdftex.def)             Requested size: 96.28166pt x 47.37796pt.
+<<<<<<< HEAD
 <Logos/SQLI_LOGO.png, id=160, 163.0893pt x 66.4884pt>
+=======
+<Logos/SQLI_LOGO.png, id=151, 163.0893pt x 66.4884pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Logos/SQLI_LOGO.png Graphic file (type png)
 <use Logos/SQLI_LOGO.png>
 Package pdftex.def Info: Logos/SQLI_LOGO.png  used on input line 5.
@@ -1229,7 +1245,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+<<<<<<< HEAD
 <Logos/ZLAFA.png, id=161, 548.80031pt x 210.03468pt>
+=======
+<Logos/ZLAFA.png, id=152, 548.80031pt x 210.03468pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Logos/ZLAFA.png Graphic file (type png)
 <use Logos/ZLAFA.png>
 Package pdftex.def Info: Logos/ZLAFA.png  used on input line 51.
@@ -1246,8 +1266,13 @@ l.76 \frontmatter
 
 
 
+<<<<<<< HEAD
 ] (./Frontmatter/Dedication.tex
 <Figures/dedicace.png, id=178, 597.60106pt x 602.25pt>
+=======
+] (Frontmatter/Dedication.tex
+<Figures/dedicace.png, id=169, 597.60106pt x 602.25pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/dedicace.png Graphic file (type png)
 <use Figures/dedicace.png>
 Package pdftex.def Info: Figures/dedicace.png  used on input line 51.
@@ -1295,12 +1320,20 @@ File: Logos/SQLI_LOGO.png Graphic file (type png)
 Package pdftex.def Info: Logos/SQLI_LOGO.png  used on input line 20.
 (pdftex.def)             Requested size: 114.16171pt x 46.54155pt.
  [2]
+<<<<<<< HEAD
 <Figures/cle chiffre.png, id=334, 770.88pt x 578.16pt>
+=======
+<Figures/cle chiffre.png, id=284, 770.88pt x 578.16pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/cle chiffre.png Graphic file (type png)
 <use Figures/cle chiffre.png>
 Package pdftex.def Info: Figures/cle chiffre.png  used on input line 48.
 (pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+<<<<<<< HEAD
 <Figures/sqli partenaire .png, id=336, 1229.59375pt x 465.74pt>
+=======
+<Figures/sqli partenaire .png, id=286, 1229.59375pt x 465.74pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/sqli partenaire .png Graphic file (type png)
 <use Figures/sqli partenaire .png>
 Package pdftex.def Info: Figures/sqli partenaire .png  used on input line 58.
@@ -1311,13 +1344,21 @@ Underfull \hbox (badness 1231) in paragraph at lines 94--94
  []
 
 [4 <./Figures/sqli partenaire .png>]
+<<<<<<< HEAD
 <Figures/departement.png, id=357, 770.88pt x 578.16pt>
+=======
+<Figures/departement.png, id=305, 770.88pt x 578.16pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/departement.png Graphic file (type png)
 <use Figures/departement.png>
 Package pdftex.def Info: Figures/departement.png  used on input line 117.
 (pdftex.def)             Requested size: 398.33858pt x 298.7482pt.
  [5 <./Figures/departement.png>] [6]
+<<<<<<< HEAD
 <Figures/Seasonal Event Team.png, id=369, 1445.4pt x 813.0375pt>
+=======
+<Figures/Seasonal Event Team.png, id=318, 1445.4pt x 813.0375pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/Seasonal Event Team.png Graphic file (type png)
 <use Figures/Seasonal Event Team.png>
 Package pdftex.def Info: Figures/Seasonal Event Team.png  used on input line 174.
@@ -1334,7 +1375,11 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 174--175
  []
 
 [7]
+<<<<<<< HEAD
 <Figures/Cart Checkout & Payment.png, id=374, 1445.4pt x 813.0375pt>
+=======
+<Figures/Cart Checkout & Payment.png, id=323, 1445.4pt x 813.0375pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/Cart Checkout & Payment.png Graphic file (type png)
 <use Figures/Cart Checkout & Payment.png>
 Package pdftex.def Info: Figures/Cart Checkout & Payment.png  used on input line 181.
@@ -1354,8 +1399,13 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 181--182
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 192.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+<<<<<<< HEAD
 ) [9{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 <Figures/Confluence Documentation.png, id=387, 1155.1155pt x 548.0475pt>
+=======
+) [9{C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+<Figures/Confluence Documentation.png, id=336, 1155.1155pt x 548.0475pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/Confluence Documentation.png Graphic file (type png)
 <use Figures/Confluence Documentation.png>
 Package pdftex.def Info: Figures/Confluence Documentation.png  used on input line 223.
@@ -1372,7 +1422,11 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 223--224
  []
 
 [10]
+<<<<<<< HEAD
 <Figures/azure DevOps-tickets.png, id=393, 1445.4pt x 813.0375pt>
+=======
+<Figures/azure DevOps-tickets.png, id=341, 1445.4pt x 813.0375pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/azure DevOps-tickets.png Graphic file (type png)
 <use Figures/azure DevOps-tickets.png>
 Package pdftex.def Info: Figures/azure DevOps-tickets.png  used on input line 233.
@@ -1384,7 +1438,11 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [11 <./Figures/Confluence Documentation.png> <./Figures/azure DevOps-tickets.png>]
+<<<<<<< HEAD
 <Figures/formation.png, id=400, 1155.1155pt x 549.252pt>
+=======
+<Figures/formation.png, id=349, 1155.1155pt x 549.252pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/formation.png Graphic file (type png)
 <use Figures/formation.png>
 Package pdftex.def Info: Figures/formation.png  used on input line 254.
@@ -1410,7 +1468,11 @@ Chapitre 2.
 [15
 
 ] [16]
+<<<<<<< HEAD
 <Figures/processus.jpeg, id=427, 1528.71124pt x 561.09625pt>
+=======
+<Figures/processus.jpeg, id=375, 1528.71124pt x 561.09625pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/processus.jpeg Graphic file (type jpg)
 <use Figures/processus.jpeg>
 Package pdftex.def Info: Figures/processus.jpeg  used on input line 37.
@@ -1448,7 +1510,11 @@ Chapitre 3.
 [23
 
 ]
+<<<<<<< HEAD
 <Figures/architectureGlobale.png, id=469, 1186.4325pt x 679.53876pt>
+=======
+<Figures/architectureGlobale.png, id=406, 1186.4325pt x 679.53876pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/architectureGlobale.png Graphic file (type png)
 <use Figures/architectureGlobale.png>
 Package pdftex.def Info: Figures/architectureGlobale.png  used on input line 13.
@@ -1464,57 +1530,73 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 13--14
  [] 
  []
 
+<<<<<<< HEAD
 [24 <./Figures/architectureGlobale.png>]
 <Figures/architecturebacend.png, id=475, 524.96124pt x 511.9125pt>
+=======
+[22 <./Figures/architectureGlobale.png>]
+<Figures/architecturebacend.png, id=412, 524.96124pt x 511.9125pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/architecturebacend.png Graphic file (type png)
 <use Figures/architecturebacend.png>
-Package pdftex.def Info: Figures/architecturebacend.png  used on input line 35.
+Package pdftex.def Info: Figures/architecturebacend.png  used on input line 33.
 (pdftex.def)             Requested size: 540.60236pt x 527.18204pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 36.
+(caption)                particular \caption on input line 34.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 35--36
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 33--34
  [] 
  []
 
+<<<<<<< HEAD
 [25] [26 <./Figures/architecturebacend.png>]
 <Figures/Test.png, id=485, 1186.4325pt x 679.53876pt>
+=======
+[23] [24 <./Figures/architecturebacend.png>]
+<Figures/Test.png, id=423, 1186.4325pt x 679.53876pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/Test.png Graphic file (type png)
 <use Figures/Test.png>
-Package pdftex.def Info: Figures/Test.png  used on input line 54.
+Package pdftex.def Info: Figures/Test.png  used on input line 52.
 (pdftex.def)             Requested size: 540.60236pt x 309.64685pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 55.
+(caption)                particular \caption on input line 53.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 54--55
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 52--53
  [] 
  []
 
+<<<<<<< HEAD
 [27]
 <Figures/UAT.png, id=490, 1051.93pt x 190.7125pt>
+=======
+[25]
+<Figures/UAT.png, id=428, 1051.93pt x 190.7125pt>
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 File: Figures/UAT.png Graphic file (type png)
 <use Figures/UAT.png>
-Package pdftex.def Info: Figures/UAT.png  used on input line 60.
+Package pdftex.def Info: Figures/UAT.png  used on input line 58.
 (pdftex.def)             Requested size: 540.60236pt x 98.01286pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 61.
+(caption)                particular \caption on input line 59.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 60--61
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 58--59
  [] 
  []
 
+<<<<<<< HEAD
 [28 <./Figures/Test.png> <./Figures/UAT.png>]) [29] (./Chapitres/Chapitre4.tex
 Chapitre 4.
 [30
@@ -1786,12 +1868,40 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 129--130
  []
 
 [43 <./Figures/Screens/Backoffice commande.png>]) (./Endmatter/Conclusion.tex [44 <./Figures/Screens/confirmation par mail.png>]) (./Endmatter/Bibliography.tex [45
+=======
+[26 <./Figures/Test.png> <./Figures/UAT.png>]
+<Figures/Dto.png, id=435, 1203.49625pt x 671.50874pt>
+File: Figures/Dto.png Graphic file (type png)
+<use Figures/Dto.png>
+Package pdftex.def Info: Figures/Dto.png  used on input line 81.
+(pdftex.def)             Requested size: 540.60236pt x 301.64333pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 82.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 81--82
+ [] 
+ []
+
+[27] [28 <./Figures/Dto.png>]) [29] (Chapitres/Chapitre4.tex
+Chapitre 4.
+[30
+
+]) (Endmatter/Conclusion.tex [31]) (Endmatter/Bibliography.tex [32
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 
 ]
 
 Package hyperref Warning: Suppressing link with empty target on input line 8.
 
+<<<<<<< HEAD
 ) [46
+=======
+) [33
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 
 ] (./main.aux (./Frontmatter/Page_de_Garde_EN.aux))
  ***********
@@ -2027,6 +2137,7 @@ Figures/architectureGlobale.png
 Figures/architecturebacend.png
 Figures/Test.png
 Figures/UAT.png
+Figures/Dto.png
 Chapitres/Chapitre4.tex
 Figures/Screens/VERIFIER QUE payment activer.png
 Figures/Screens/activation du payconiq pour belge.png
@@ -2056,13 +2167,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: C7AD0D859F7C95A6D7E4BBC03A4E61B1;6992.
+=======
+(rerunfilecheck)             Checksum: 7F94EE0A62944A9F1EEC87195D3C558E;6702.
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 40 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  41539 strings out of 474116
  769589 string characters out of 5743682
  1938187 words of memory out of 5000000
@@ -2077,4 +2193,19 @@ PDF statistics:
  551 compressed objects within 6 object streams
  146 named destinations out of 1000 (max. 500000)
  492 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 41400 strings out of 474485
+ 769446 string characters out of 5745151
+ 1936542 words of memory out of 5000000
+ 62759 multiletter control sequences out of 15000+600000
+ 621043 words of font info for 72 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 100i,12n,96p,2374b,3079s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (41 pages, 2690529 bytes).
+PDF statistics:
+ 535 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
+ 391 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
 
