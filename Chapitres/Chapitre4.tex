@@ -211,7 +211,19 @@ La figure \ref{fig:ticket} illustre un exemple de ticket de bug  créé pour sui
 \subsection{Tests}
 Les tests constituent une étape essentielle pour s'assurer du bon fonctionnement du système et de sa conformité aux attentes. Ils aident à repérer et corriger d'éventuelles anomalies avant la mise en production. Nous avons ainsi mené différents types de tests, allant des tests unitaires aux tests fonctionnels, réalisés sur plusieurs environnements :
 \begin{itemize}
-    \item[$\bullet$] \textbf{Tests unitaires :} Nous avons utilisé JUnit pour mener les tests unitaires, visant à valider chaque composant du système de manière isolée. Ces tests, réalisés en local, permettent de vérifier que les méthodes fonctionnent comme prévu, de gérer les exceptions, et d'assurer la robustesse du code avant toute intégration.
+    \item[$\bullet$] \textbf{Tests unitaires :} Nous avons utilisé JUnit pour mener les tests unitaires, visant à valider chaque composant du système de manière isolée. Ces tests, réalisés en local, permettent de vérifier que les méthodes fonctionnent comme prévu, de gérer les exceptions, et d’assurer la robustesse du code avant toute intégration. Grâce à une approche rigoureuse, nous avons atteint une couverture de 100\% du code, comme le montrent les captures d'écran ci-dessous. Cette couverture complète assure que chaque ligne de code a été testée et contribue à la fiabilité globale du système.
+    \begin{center}
+        \centering
+        \includegraphics[width=18cm]{Figures/Screens/couvrage.png}
+        \captionof{figure}{Couverture de code à 100\%}
+        \label{fig:couvrage}
+    \end{center}
+    \begin{center}
+        \centering
+        \includegraphics[width=18cm]{Figures/Screens/reportSonar.png}
+        \captionof{figure}{Succès de tous les cas de test}
+        \label{fig:report}
+    \end{center}
     \item[$\bullet$] \textbf{Tests fonctionnels :} Les tests fonctionnels ont été pris en charge par l'équipe QA sur plusieurs environnements, tels que INT2, INT1, UAT et OAT. Ces tests permettent de valider que les fonctionnalités développées respectent les exigences métiers et opèrent correctement dans des conditions réalistes. INT1 est utilisé comme environnement partagé par toutes les équipes, tandis que INT2 est dédié à l'équipe Cart \& Checkout Payment. Ces validations sont cruciales pour garantir la stabilité et la conformité du système avant sa mise en production.
 \end{itemize}
 

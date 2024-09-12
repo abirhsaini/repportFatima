@@ -5,9 +5,9 @@
 \contentsline {chapter}{Abstract}{iv}{chapter*.5}%
 \contentsline {chapter}{Arabic Abstract}{v}{chapter*.6}%
 \contentsline {chapter}{Liste des sigles et acronymes}{vi}{chapter*.7}%
-\contentsline {chapter}{Table des figures}{viii}{chapter*.8}%
-\contentsline {chapter}{Liste des tableaux}{ix}{chapter*.9}%
-\contentsline {chapter}{Table des matières}{xii}{chapter*.10}%
+\contentsline {chapter}{Table des matières}{x}{chapter*.8}%
+\contentsline {chapter}{Table des figures}{xii}{chapter*.9}%
+\contentsline {chapter}{Liste des tableaux}{xiii}{chapter*.10}%
 \contentsline {chapter}{Introdcution}{1}{chapter*.11}%
 \contentsline {chapter}{\numberline {1}Contexte général du projet}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Présentation de l’entreprise d’accueil SQLI}{3}{section.1.1}%
@@ -55,7 +55,7 @@
 \contentsline {section}{\numberline {4.3}Analyse et Correction des Anomalies}{53}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Tests et Validation}{54}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Tests}{54}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Validation des besoins fonctionnels}{55}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Validation des besoins non fonctionnels}{55}{subsection.4.4.3}%
-\contentsline {chapter}{Conclusion}{57}{appendix*.17}%
-\contentsline {chapter}{Références}{57}{appendix*.17}%
+\contentsline {subsection}{\numberline {4.4.2}Validation des besoins fonctionnels}{56}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Validation des besoins non fonctionnels}{56}{subsection.4.4.3}%
+\contentsline {chapter}{Conclusion}{58}{appendix*.17}%
+\contentsline {chapter}{Références}{58}{appendix*.17}%
