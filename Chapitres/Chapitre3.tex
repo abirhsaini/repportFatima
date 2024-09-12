@@ -4,8 +4,8 @@
 Ce chapitre se concentre sur l'architecture physique et applicative adoptée. Il inclut également une exploration approfondie de la conception, illustrée par des diagrammes techniques de classes et de séquences détaillées, en se basant sur les spécifications établies dans le deuxième chapitre.
 \newpage
 
-
-\section{Architecture Globale}
+\section{Architecture de l'application}
+\subsection{Architecture Globale}
 
 L'architecture e-commerce, telle que présentée ici, est volontairement simplifiée pour se concentrer sur les composants essentiels sur lesquels nous avons travaillé. Elle s’appuie sur plusieurs composants clés pour gérer les interactions entre le client, le contenu du site, les commandes et les paiements.
 \begin{center}
@@ -24,7 +24,7 @@ L'architecture e-commerce, telle que présentée ici, est volontairement simplif
 \end{itemize}
 Lorsqu'un client effectue un paiement sur le site, une requête est envoyée à Adyen pour obtenir une autorisation. Adyen traite la demande et renvoie une réponse indiquant si le paiement est "autorisé" ou "non autorisé". Si le paiement est refusé, le client est redirigé vers une page d'erreur. En revanche, si le paiement est approuvé, le client est dirigé vers la page de confirmation de commande, et simultanément, la commande est exportée vers Fluent Commerce, le système de gestion des commandes.Fluent Commerce est chargé de gérer le cycle de vie de la commande en attendant la notification d'Adyen confirmant que le paiement a bien été autorisé, car il peut être annulé en cas de fraude ou de problème de sécurité. Si la notification indique que le paiement a été annulé, Fluent communique avec Mailjet pour envoyer un e-mail d'annulation au client. Cependant, si le paiement est confirmé, un e-mail de confirmation de commande est envoyé via Mailjet. Par la suite, une fois la commande prête à être expédiée, Fluent envoie une requête de capture à Adyen. Dès qu'Adyen confirme que la capture a été effectuée avec succès, la commande est expédiée, et Mailjet envoie un e-mail de confirmation de livraison au client. En plus de ces tâches, Fluent Commerce prend également en charge plusieurs aspects logistiques de la commande, tels que la vérification de la disponibilité des produits, la gestion des entrepôts pour l’expédition, ainsi que le suivi du statut de la commande (en attente, en préparation, expédiée, etc.).
 
-\section{Architecture Backend}
+\subsection{Architecture Backend}
 Notre solution est basée sur la plate-forme SAP Hybris et suit donc son architecture
 logicielle présentée dans la figure suivante :
 
@@ -42,7 +42,7 @@ logicielle présentée dans la figure suivante :
     \item [$\bullet$]\textbf{Couche de Persistance de Hybris:} La couche de persistance est le composant qui assure l'interaction entre le Service Layer et la base de données. Elle est responsable de la gestion de toutes les opérations de lecture et d'écriture dans la base de données, garantissant que les données sont stockées de manière efficace et peuvent être récupérées de manière fiable. 
 \end{itemize}
 
-\section{Environnent de livraison et test }
+\subsection{Environnent de livraison et test }
 
 
 Cette section présente processus de déploiement du projet, en détaillant les différents serveurs utilisés. La structure se compose de deux parties principales : interne et externe.
@@ -62,17 +62,17 @@ Cette section présente processus de déploiement du projet, en détaillant les 
 
 
 
-\subsection{Architecture interne}
+\subsubsection{Architecture interne}
 L'architecture interne est implémentée au sein de SQLI et comprend un serveur d'intégration (INT) et un serveur SonarQube pour l'analyse de la qualité du code. Les développeurs effectuent des commits sur le dépôt Azure DevOps, puis un serveur d'intégration continue, Jenkins, récupère les dernières versions depuis ce dépôt pour effectuer une compilation automatique avec ANT. Jenkins lance ensuite une analyse SonarQube pour garantir la qualité du code. Après l'analyse SonarQube, le serveur vérifie que le nombre d'erreurs détectées ne dépasse pas les limites prédéfinies en fonction de la gravité des erreurs et des quotas définis sur le serveur SonarQube. Si ces contrôles sont satisfaits, Jenkins déploie le code sur le serveur d'intégration (INT). Ce processus d'intégration continue se répète tout au long du sprint de trois semaines.
 
 
-\subsection{Architecture externe}
+\subsubsection{Architecture externe}
 
 L'architecture externe est implémentée dans l'environnement du client et se compose de trois serveurs : UAT (User Acceptance Testing), OAT (Operational Acceptance Testing) et PROD (Production). Toutes les deux semaines, une nouvelle version est livrée dans le système de gestion de versions du client, TFS (Team Foundation Server).
 
 \begin{itemize} \item [$\bullet$]\textbf{Serveur UAT:} Utilisé pour tester les livrables et s'assurer qu'ils répondent aux attentes de l'utilisateur final. \item [$\bullet$]\textbf{Serveur OAT:} Permet de déterminer si les livrables sont opérationnels et prêts à être intégrés dans l'environnement de production. \item [$\bullet$]\textbf{Serveur PROD:} Après les processus de test, une mise en production (MEP) est effectuée tous les trois mois, rendant la version finale disponible pour les utilisateurs finaux. \end{itemize}
 
-\section{Architecture applicative}
+\subsection{Architecture applicative}
 
 Dans le cadre de l'utilisation de la solution Hybris, il est conseillé de suivre l'architecture applicative qu'elle propose. Cette architecture est basée sur un modèle n-tiers largement utilisé dans les applications web, permettant une répartition claire des rôles et une meilleure structuration du code. Quatre principaux patrons de conception sont au cœur de cette architecture :
 
@@ -94,8 +94,9 @@ Dans le cadre de l'utilisation de la solution Hybris, il est conseillé de suivr
 \end{itemize}
 
 Adopter cette architecture permet non seulement une meilleure organisation du code, mais aussi d'assurer une évolutivité et une maintenance aisée à long terme.
+\section{Conception detaillée}
 
-\section{Diagramme de classe}
+\subsection{Diagramme de classe}
 \begin{center}
     \centering
     \includegraphics[width=19cm]{Figures/class.png}
@@ -104,7 +105,7 @@ Adopter cette architecture permet non seulement une meilleure organisation du co
 
 La figure ci-dessus représente le diagramme de classe de notre système. Un Client peut passer plusieurs Commandes (représentées par la classe AbstractOrder), et chaque commande est associée à une Transaction de paiement (PaymentTransaction). Cette transaction contient des détails tels que le fournisseur de paiement, le montant prévu, et les identifiants du marchand. Elle est liée à une ou plusieurs Entrées de transaction (PaymentTransactionEntry), qui décrivent des aspects spécifiques comme le type de transaction, le montant, l'heure, et l'état de la transaction. Les informations de paiement sont représentées par la classe PaymentInfo, qui inclut le mode de paiement (défini par l'énumération PaymentModeType), et peut être associée à une Adresse. Une spécialisation de PaymentInfo, nommée PayconiqPaymentInfo, est utilisée pour les transactions via Payconiq. Le système gère également les devises via la classe Currency, qui est associée aux transactions de paiement. En somme, ce diagramme modélise la partie structurelle d'un volet de la gestion de paiement dans notre site e-commerce où les clients effectuent des paiements par divers moyens.
 
-\section{Diagramme de séquence}
+\subsection{Diagramme de séquence}
 
 \begin{center}
     \centering
