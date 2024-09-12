@@ -1,45 +1,39 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo de SQLI \cite {SQLI}}}{2}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Chiffre Clés de SQLI}}{3}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Clients du SQLI \cite {SQLI}}}{4}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Départements de SQLI}}{5}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Structure de l'équipe Seasonal Event}}{8}{figure.1.5}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Structure de l'équipe Cart Checkout \& Payment}}{8}{figure.1.6}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Page d’accueil de Confluence}}{11}{figure.1.7}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Backlog du projet sur Azure DevOps}}{11}{figure.1.8}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Clendrier des formations}}{13}{figure.1.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Processus du paiement}}{18}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d'utilisation}}{20}{figure.2.2}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo de SQLI \cite {SQLI}}}{3}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Chiffre Clés de SQLI}}{4}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Clients du SQLI \cite {SQLI}}}{5}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Départements de SQLI}}{6}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Structure de l'équipe Seasonal Event}}{9}{figure.1.5}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Structure de l'équipe Cart Checkout \& Payment}}{9}{figure.1.6}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Page d’accueil de Confluence}}{12}{figure.1.7}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Backlog du projet sur Azure DevOps}}{12}{figure.1.8}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Clendrier des formations}}{14}{figure.1.9}%
 \addvspace {10\p@ }
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture globale de l'application E-commerce}}{24}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Architecture de backend de l'application E-commerce}}{26}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Architecture de backend de l'application E-commerce}}{28}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Architecture de backend de l'application E-commerce}}{28}{figure.3.4}%
-=======
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture globale de l'application E-commerce}}{22}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Architecture de backend de l'application E-commerce}}{24}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Architecture de backend de l'application E-commerce}}{26}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Architecture de backend de l'application E-commerce}}{26}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Architecture Applicative de l'application E-commerce}}{28}{figure.3.5}%
->>>>>>> bf8e40e9fd53ddbdc2edeef1fc2f3444f0cb3269
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Processus du paiement}}{19}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d'utilisation}}{21}{figure.2.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Activation de Payconiq}}{31}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Disponibilité de Payconiq dans la boutique en ligne}}{32}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Ajout d'un produit au panier}}{32}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Fournir les informations personnelles}}{33}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Mode de livraison}}{34}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Saisir un code promo}}{34}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Facturation}}{35}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Choix de mode de paiement}}{36}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Finalisation du paiement via l'API Adyen}}{37}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Écran de traitement en cours}}{37}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Montant à payer}}{38}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Paiement reussi}}{39}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Confirmation de la commande}}{40}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Informations de la commande}}{41}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Message d'erreur en cas d'annulation du paiement}}{42}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Confirmation de la commande dans le backoffice}}{43}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Message de confirmation par email}}{44}{figure.4.17}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture globale de l'application E-commerce}}{26}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Architecture de backend de l'application E-commerce}}{28}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Architecture de backend de l'application E-commerce}}{30}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Architecture de backend de l'application E-commerce}}{30}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Architecture Applicative de l'application E-commerce}}{32}{figure.3.5}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Activation de Payconiq}}{35}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Disponibilité de Payconiq dans la boutique en ligne}}{36}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ajout d'un produit au panier}}{36}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Fournir les informations personnelles}}{37}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Mode de livraison}}{38}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Saisir un code promo}}{38}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Facturation}}{39}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Choix de mode de paiement}}{40}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Finalisation du paiement via l'API Adyen}}{41}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Écran de traitement en cours}}{41}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Montant à payer}}{42}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Paiement reussi}}{43}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Confirmation de la commande}}{44}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Informations de la commande}}{45}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Message d'erreur en cas d'annulation du paiement}}{46}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Confirmation de la commande dans le backoffice}}{47}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Message de confirmation par email}}{48}{figure.4.17}%

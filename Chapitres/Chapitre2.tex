@@ -75,39 +75,74 @@ Cette étude permettra d'identifier les exigences spécifiques liées à cette i
     \label{fig:usecase}
 \end{center}
 
-\subsubsection[*]{Analyse des cas d'utilisation}
-
+\subsubsection{Analyse des cas d'utilisation}
 \begin{longtable}{|p{4cm}|p{11cm}|}
 \hline
 \multicolumn{2}{|c|}{\textbf{Passer Commande}} \\ \hline
-\textbf{But} & Permettre à l'utilisateur de sélectionner des produits, de les ajouter à son panier, de saisir les informations nécessaires et de préparer la commande pour le paiement. \\ \hline
+\textbf{But} & Confirmer l'achat des produits ajoutés au panier \\ \hline
 \textbf{Acteur} & Acheteur \\ \hline
-\textbf{Pre-conditions} &
-\begin{itemize}
-    \item L'acheteur a choisi les produits qu'il souhaite acheter et les a ajoutés à son panier.
-    \item L'acheteur a créé un compte sur le site de Chanel ou peut effectuer une commande en tant qu'invité.
-\end{itemize} \\ \hline
-\textbf{Post-conditions} &
-\begin{itemize}
-    \item Les informations de livraison sont fournies, et le mode de livraison (à domicile ou click and collect) est choisi.
-    \item L'adresse de facturation est saisie.
-\end{itemize} \\ \hline
+\textbf{Pré-conditions} & Avoir des produits dans le panier \\ \hline
+\textbf{Post-conditions} & Saisir les informations de paiement \\ \hline
 \textbf{Scénario normal} &
 \begin{itemize}
-    \item L'acheteur parcourt le site et sélectionne les produits qu'il souhaite acheter, puis les ajoute à son panier.
-    \item Une fois les produits sélectionnés, l'acheteur clique sur "Passer commande".
-    \item Le site demande à l'acheteur de choisir le mode de livraison (à domicile ou click and collect).
-    \item L'acheteur entre les informations de livraison.
-    \item L'acheteur saisit l'adresse de facturation, qui peut être différente de l'adresse de livraison.
-    \item Le site vérifie que toutes les informations requises sont correctement saisies et que le panier est prêt pour le paiement.
+    \item Consulter le panier;
+    \item Cliquer sur "Passer commande";
+    \item Choisir le mode de livraison (à domicile ou click and collect);
+    \item Saisir les informations de livraison;
+    \item Saisir l'adresse de facturation (peut être différente de l'adresse de livraison);
+    \item Vérifier les informations requises;
+    \item Redirection vers la page de paiement.
 \end{itemize} \\ \hline
 \textbf{Scénario alternatif} &
-\begin{itemize}
-    \item L'acheteur rencontre des problèmes avec la connexion Internet ou le chargement du site.
-    \item Un produit sélectionné n'est plus disponible en stock.
-    \item L'acheteur décide d'annuler ou de modifier la commande avant de passer à la caisse.
-\end{itemize} \\ \hline
+\begin{enumerate}
+    \item Un produit sélectionné n'est plus disponible en stock
+    \begin{itemize}
+        \item Affichage du message "Produit indisponible"
+    \end{itemize}
+    \item Manque d'informations requises
+    \begin{itemize}
+        \item Affichage du message indiquant l'information manquante
+    \end{itemize}
+\end{enumerate} \\ \hline
+\caption{Description textuelle du cas d'utilisation "Passer Commande"}
+\label{tab:passer_commande}
 \end{longtable}
+
+\begin{longtable}{|p{4cm}|p{11cm}|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Finaliser l'achat d'une commande}} \\ \hline
+    \textbf{But} & Finaliser l'achat d'une commande \\ \hline
+    \textbf{Acteur} & Acheteur \\ \hline
+    \textbf{Pré-conditions} & 
+    \begin{itemize}
+        \item Passer la commande
+        \item Disposer d'un compte payconiq actif
+    \end{itemize} \\ \hline
+    \textbf{Post-conditions} & Saisir les informations de paiement \\ \hline
+    \textbf{Scénario normal} &
+    \begin{itemize}
+        \item Sélectionner Payconiq comme méthode de paiement;
+        \item Générer un QR code Payconiq;
+        \item Ouvrir l'application Payconiq by Bancontact et scanner le QR code;
+        \item Confirmer le montant et autoriser le paiement dans l'application;
+        \item Rediriger vers une page de confirmation de commande;
+        \item Recevoir une confirmation de paiement sur le site et par e-mail.
+    \end{itemize} \\ \hline
+    \textbf{Scénario alternatif} &
+    \begin{enumerate}
+        \item Fonds insuffisants
+        \begin{itemize}
+            \item Affichage du message "Fonds insuffisants"
+        \end{itemize}
+        \item Manque d'informations requises
+        \begin{itemize}
+            \item Affichage du message indiquant l'information manquante
+        \end{itemize}
+    \end{enumerate} \\ \hline
+    \caption{Description textuelle du cas d'utilisation "Finaliser l'achat d'une commande"}
+    \label{tab:finaliser_commande}
+    \end{longtable}
+
 
 \subsubsection{Diagramme de séquence système}
 
