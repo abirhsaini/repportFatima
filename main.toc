@@ -7,7 +7,7 @@
 \contentsline {chapter}{Liste des sigles et acronymes}{vi}{chapter*.7}%
 \contentsline {chapter}{Table des figures}{viii}{chapter*.8}%
 \contentsline {chapter}{Liste des tableaux}{ix}{chapter*.9}%
-\contentsline {chapter}{Table des matières}{xi}{chapter*.10}%
+\contentsline {chapter}{Table des matières}{xii}{chapter*.10}%
 \contentsline {chapter}{Introdcution}{1}{chapter*.11}%
 \contentsline {chapter}{\numberline {1}Contexte général du projet}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Présentation de l’entreprise d’accueil SQLI}{3}{section.1.1}%
@@ -38,7 +38,6 @@
 \contentsline {subsubsection}{\numberline {2.2.1.1}Identification des fonctionnalités}{20}{subsubsection.2.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.2.1.2}Diagramme de cas d’utilisation}{21}{subsubsection.2.2.1.2}%
 \contentsline {subsubsection}{\numberline {2.2.1.3}Analyse des cas d'utilisation}{21}{subsubsection.2.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.2.1.4}Diagramme de séquence système}{23}{subsubsection.2.2.1.4}%
 \contentsline {subsection}{\numberline {2.2.2}Exigences non-fonctionnelles}{23}{subsection.2.2.2}%
 \contentsline {chapter}{\numberline {3}Conception de la solution}{25}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Architecture Globale}{26}{section.3.1}%
@@ -52,7 +51,11 @@
 \contentsline {chapter}{\numberline {4}Implémentation et Validation}{35}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Technologies utilisées}{36}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}JEE (JSP)}{36}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Captures d'écran}{39}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Tests et Validation}{52}{section.4.3}%
-\contentsline {chapter}{Conclusion}{53}{appendix*.17}%
-\contentsline {chapter}{Références}{53}{appendix*.17}%
+\contentsline {section}{\numberline {4.2}Illustration des Fonctionnalités Développées}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Analyse et Correction des Anomalies}{52}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Tests et Validation}{53}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Tests}{53}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Validation des besoins fonctionnels}{54}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Validation des besoins non fonctionnels}{54}{subsection.4.4.3}%
+\contentsline {chapter}{Conclusion}{56}{appendix*.17}%
+\contentsline {chapter}{Références}{56}{appendix*.17}%

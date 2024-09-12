@@ -64,7 +64,7 @@ Ant, un outil de build open-source largement utilisé dans les projets Java, per
 JUnit est un framework de tests unitaires en Java qui permet de tester les composants individuels d'une application pour s'assurer qu'ils fonctionnent comme prévu. Il est essentiel dans le processus de développement, car il permet d'identifier et de corriger rapidement les bugs tout en garantissant que le code fonctionne correctement après chaque modification.
 
 Dans le cadre de l'intégration de la nouvelle méthode de paiement, j'ai écrit des tests unitaires en utilisant JUnit pour vérifier la fiabilité des fonctionnalités back-end. J'ai testé des scénarios comme la validation des transactions, la gestion des erreurs, et les interactions avec les systèmes externes. Grâce à l'exigence du client d'une couverture de 100% des tests, nous avons veillé à ce que chaque composant du système soit minutieusement testé, garantissant ainsi que toutes les fonctionnalités répondaient aux spécifications et étaient exemptes de bugs.
-\section{Captures d'écran}
+\section{Illustration des Fonctionnalités Développées}
 Cette partie fournit une vue détaillée des fonctionnalités développées à travers une série de captures d’écran.
 Avant de finaliser l'intégration de Payconiq via Adyen, il est crucial de vérifier que cette méthode de paiement est correctement activée dans le système. Comme le montre la figure \ref{fig:activ}, Payconiq est marqué comme actif dans le Cockpit d'administration de SAP Commerce. 
 Cela confirme qu'il est prêt à être utilisé pour le traitement des paiements, garantissant que les transactions effectuées avec Payconiq seront traitées correctement.
@@ -189,28 +189,44 @@ Une fois la commande validée, un e-mail est automatiquement envoyé à l'utilis
     \captionof{figure}{Message de confirmation par email}
     \label{fig:email}
 \end{center}
+\section{Analyse et Correction des Anomalies}
 
+Au cours de cette période, une partie essentielle de mon travail a consisté à résoudre les problèmes détectés par SonarQube, un outil d'analyse statique qui permet d'améliorer la qualité du code. Comme illustré par les captures ci-dessous, SonarQube a mis en évidence plusieurs anomalies critiques, notamment des  duplications de littéraux  et des  complexités cognitives  élevées dans certaines méthodes du projet. Ces problèmes, jugés critiques, nécessitaient une attention immédiate pour garantir une bonne maintenabilité du projet.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+En corrigeant ces anomalies, j'ai non seulement amélioré la maintenabilité du projet, mais aussi réduit les risques d'erreurs futures. Ce travail d'optimisation a permis de renforcer la  robustesse  du code et d'assurer que le projet respecte les bonnes pratiques de développement logiciel, en ligne avec les normes de qualité du secteur.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/bug.png}
+    \captionof{figure}{Bugs détectés par SonarQube}
+    \label{fig:corr}
+\end{center}
+La figure \ref{fig:ticket} illustre un exemple de ticket de bug  créé pour suivre les anomalies détectées. Ce processus de gestion des bugs est essentiel pour identifier et résoudre les problèmes techniques, ce qui garantit la  stabilité  et la  qualité  du produit final. Travailler sur ces tickets a également permis de faciliter la collaboration entre les équipes, améliorant ainsi l'expérience utilisateur globale.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/ticket.png}
+    \captionof{figure}{Exemple ticket de debugging}
+    \label{fig:ticket}
+\end{center}
 \section{Tests et Validation}
+\subsection{Tests}
+Les tests constituent une étape essentielle pour s'assurer du bon fonctionnement du système et de sa conformité aux attentes. Ils aident à repérer et corriger d'éventuelles anomalies avant la mise en production. Nous avons ainsi mené différents types de tests, allant des tests unitaires aux tests fonctionnels, réalisés sur plusieurs environnements :
+\begin{itemize}
+    \item[$\bullet$] \textbf{Tests unitaires :} Nous avons utilisé JUnit pour mener les tests unitaires, visant à valider chaque composant du système de manière isolée. Ces tests, réalisés en local, permettent de vérifier que les méthodes fonctionnent comme prévu, de gérer les exceptions, et d'assurer la robustesse du code avant toute intégration.
+    \item[$\bullet$] \textbf{Tests fonctionnels :} Les tests fonctionnels ont été pris en charge par l'équipe QA sur plusieurs environnements, tels que INT2, INT1, UAT et OAT. Ces tests permettent de valider que les fonctionnalités développées respectent les exigences métiers et opèrent correctement dans des conditions réalistes. INT1 est utilisé comme environnement partagé par toutes les équipes, tandis que INT2 est dédié à l'équipe Cart \& Checkout Payment. Ces validations sont cruciales pour garantir la stabilité et la conformité du système avant sa mise en production.
+\end{itemize}
 
+\subsection{Validation des besoins fonctionnels}
+Les besoins fonctionnels ont été validés avec succès sur l'environnement INT1. À ce stade, nous attendons la finalisation des tests dans tous les environnements pour pouvoir procéder au déploiement de la fonctionnalité en production. En parallèle, une validation finale est effectuée par le Delivery Manager afin de garantir que les objectifs fonctionnels et les exigences métiers sont entièrement satisfaits avant la mise en production.
+
+Il est important de noter que la validation des besoins par le client est une étape cruciale qui n'a pas encore été réalisée. Nous planifions d'organiser une session de validation avec le client pour obtenir leur approbation formelle des besoins fonctionnels. Cette validation permettra de confirmer que les exigences sont bien comprises et acceptées avant le passage en production, garantissant ainsi que les attentes du client sont pleinement respectées.
+
+\subsection{Validation des besoins non fonctionnels}
+Pour garantir que le système répond aux critères essentiels de performance, il est crucial de valider les exigences non fonctionnelles définies préalablement.
+\begin{itemize}
+    \item[$\bullet$]\textbf{Sécurité :} La sécurité des paiements est garantie par l'utilisation de l'API d'Adyen, qui intègre des mécanismes de sécurité avancés. Adyen utilise des protocoles de cryptage de bout en bout pour protéger les données sensibles des transactions. En outre, l'API d'Adyen respecte les exigences de la directive européenne PSD2 en offrant une authentification forte du client (SCA). Cette authentification peut inclure des facteurs biométriques, des mots de passe ou des codes à usage unique, assurant ainsi une protection renforcée contre les fraudes et garantissant un niveau de sécurité optimal pour chaque transaction traitée.
+    \item[$\bullet$] \textbf{Maintenabilité :} La maintenabilité du système est assurée grâce à une architecture modulaire et une documentation complète, facilitant la gestion des mises à jour et des correctifs. Les processus de déploiement automatisés minimisent les risques d'erreurs et permettent une intégration fluide des nouvelles fonctionnalités. Cette approche garantit une gestion efficace des évolutions et des corrections nécessaires au bon fonctionnement du système.
+    \item[$\bullet$] \textbf{Disponibilité :} La disponibilité du système est optimisée par la configuration de déploiements répartis sur plusieurs clusters géographiques. Le projet One utilise cinq clusters situés en Amérique (AMER), en Europe, au Moyen-Orient et en Afrique (EMEA), en Asie-Pacifique, en Australie et au Canada (APAC), en Russie et en Chine. Cette répartition permet d'assurer une haute disponibilité et une résilience accrue du système, offrant une réponse rapide aux demandes des utilisateurs, indépendamment de leur emplacement. Grâce à cette architecture distribuée, le système bénéficie d'une latence réduite et d'un temps de réponse optimisé. En cas de panne d'un cluster, le trafic est automatiquement redirigé vers les autres clusters, assurant ainsi la continuité du service et minimisant les interruptions. Cette approche contribue à maintenir une expérience utilisateur fluide et efficace.
+\end{itemize}
 
 \section*{Conclusion}
 Ce chapitre a été consacré à la mise en place de la solution développée. Après une brève introduction des technologies employées, les captures d'écran ont mis en lumière les fonctionnalités réalisées. Les détails des tests entrepris ont ensuite permis de valider l'efficacité de la nouvelle méthode de paiement. Ces étapes ont assuré que la plateforme répond aux exigences fonctionnelles et maintient une performance optimale.
