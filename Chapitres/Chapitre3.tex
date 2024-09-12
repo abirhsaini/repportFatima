@@ -50,13 +50,13 @@ Cette section présente processus de déploiement du projet, en détaillant les 
 \begin{center}
     \centering
     \includegraphics[width=19cm]{Figures/Test.png}
-    \captionof{figure}{Architecture de backend de l'application E-commerce}
+    \captionof{figure}{Architecture de livraison et test simplifiée}
     \label{fig:processus}
 \end{center}
 \begin{center}
     \centering
     \includegraphics[width=19cm]{Figures/UAT.png}
-    \captionof{figure}{Architecture de backend de l'application E-commerce}
+    \captionof{figure}{Environnements de test et production}
     \label{fig:processus}
 \end{center}
 
@@ -94,6 +94,22 @@ Dans le cadre de l'utilisation de la solution Hybris, il est conseillé de suivr
 \end{itemize}
 
 Adopter cette architecture permet non seulement une meilleure organisation du code, mais aussi d'assurer une évolutivité et une maintenance aisée à long terme.
+
+\section{Diagramme de classe}
+\section{Diagramme de séquence}
+
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/sequence.png}
+    \captionof{figure}{Diagramme de séquence }
+    \label{fig:processus}
+\end{center} 
+
+
+Le processus de paiement via Payconiq commence lorsque le client sélectionne ce moyen de paiement sur la plateforme. La transaction est alors initialisée et validée pour s'assurer que toutes les conditions sont remplies. Ensuite, une session Payconiq est démarrée via Adyen, qui génère une URL de redirection pour amener le client à la page de paiement Payconiq. Une fois redirigé, une commande est créée avec le statut "en attente". La page de paiement affiche un QR code que le client doit scanner avec son application Payconiq. Après avoir scanné le QR code, la confirmation du paiement est envoyée de Payconiq à Adyen, qui informe ensuite la plateforme e-commerce du statut du paiement.
+
+Si le paiement est autorisé, la commande est complétée avec le statut "créée", le client est redirigé vers une page de confirmation, et un e-mail de confirmation de commande est envoyé. En revanche, si le paiement échoue, la commande est marquée avec le statut "échec", le client est redirigé vers une page d'échec de paiement, et un e-mail d'échec de paiement est envoyé.
+
 
 
 \subsection*{Conclusion}
