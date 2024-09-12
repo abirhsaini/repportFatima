@@ -578,29 +578,11 @@ INPUT ./Frontmatter/Remerciements.tex
 INPUT ./Frontmatter/Remerciements.tex
 INPUT Frontmatter/Remerciements.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT ./Frontmatter/Résumé.tex
-INPUT ./Frontmatter/Résumé.tex
-INPUT ./Frontmatter/Résumé.tex
-INPUT ./Frontmatter/Résumé.tex
-INPUT Frontmatter/Résumé.tex
-INPUT ./Figures/abstract.png
-INPUT ./Figures/abstract.png
-INPUT ./Figures/abstract.png
-INPUT ./Figures/abstract.png
-INPUT ./Figures/abstract.png
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmro12.tfm
-INPUT ./Frontmatter/Abstract.tex
-INPUT ./Frontmatter/Abstract.tex
-INPUT ./Frontmatter/Abstract.tex
-INPUT ./Frontmatter/Abstract.tex
-INPUT Frontmatter/Abstract.tex
-INPUT ./Endmatter/Acronyms.tex
-INPUT ./Endmatter/Acronyms.tex
-INPUT Endmatter/Acronyms.tex
 INPUT ./main.lof
 INPUT ./main.lof
 INPUT main.lof
 OUTPUT main.lof
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmro12.tfm
 INPUT ./main.lot
 INPUT ./main.lot
 INPUT main.lot
@@ -609,9 +591,6 @@ INPUT ./main.toc
 INPUT ./main.toc
 INPUT main.toc
 OUTPUT main.toc
-INPUT ./Frontmatter/IntroductionGenerale.tex
-INPUT ./Frontmatter/IntroductionGenerale.tex
-INPUT Frontmatter/IntroductionGenerale.tex
 INPUT ./Chapitres/Chapitre1.tex
 INPUT ./Chapitres/Chapitre1.tex
 INPUT Chapitres/Chapitre1.tex
@@ -685,9 +664,114 @@ INPUT ./Figures/usecase.jpg
 INPUT ./Chapitres/Chapitre3.tex
 INPUT ./Chapitres/Chapitre3.tex
 INPUT Chapitres/Chapitre3.tex
+INPUT ./Figures/architectureGlobale.png
+INPUT ./Figures/architectureGlobale.png
+INPUT ./Figures/architectureGlobale.png
+INPUT ./Figures/architectureGlobale.png
+INPUT ./Figures/architectureGlobale.png
+INPUT ./Figures/architecturebacend.png
+INPUT ./Figures/architecturebacend.png
+INPUT ./Figures/architecturebacend.png
+INPUT ./Figures/architecturebacend.png
+INPUT ./Figures/architecturebacend.png
+INPUT ./Figures/Test.png
+INPUT ./Figures/Test.png
+INPUT ./Figures/Test.png
+INPUT ./Figures/Test.png
+INPUT ./Figures/Test.png
+INPUT ./Figures/UAT.png
+INPUT ./Figures/UAT.png
+INPUT ./Figures/UAT.png
+INPUT ./Figures/UAT.png
+INPUT ./Figures/UAT.png
 INPUT ./Chapitres/Chapitre4.tex
 INPUT ./Chapitres/Chapitre4.tex
 INPUT Chapitres/Chapitre4.tex
+INPUT ./Figures/Screens/VERIFIER QUE payment activer.png
+INPUT ./Figures/Screens/VERIFIER QUE payment activer.png
+INPUT ./Figures/Screens/VERIFIER QUE payment activer.png
+INPUT ./Figures/Screens/VERIFIER QUE payment activer.png
+INPUT ./Figures/Screens/VERIFIER QUE payment activer.png
+INPUT ./Figures/Screens/activation du payconiq pour belge.png
+INPUT ./Figures/Screens/activation du payconiq pour belge.png
+INPUT ./Figures/Screens/activation du payconiq pour belge.png
+INPUT ./Figures/Screens/activation du payconiq pour belge.png
+INPUT ./Figures/Screens/activation du payconiq pour belge.png
+INPUT ./Figures/Screens/ajouter un produit au panier.png
+INPUT ./Figures/Screens/ajouter un produit au panier.png
+INPUT ./Figures/Screens/ajouter un produit au panier.png
+INPUT ./Figures/Screens/ajouter un produit au panier.png
+INPUT ./Figures/Screens/ajouter un produit au panier.png
+INPUT ./Figures/Screens/ajout de l'email.png
+INPUT ./Figures/Screens/ajout de l'email.png
+INPUT ./Figures/Screens/ajout de l'email.png
+INPUT ./Figures/Screens/ajout de l'email.png
+INPUT ./Figures/Screens/ajout de l'email.png
+INPUT ./Figures/Screens/Infos livraison.png
+INPUT ./Figures/Screens/Infos livraison.png
+INPUT ./Figures/Screens/Infos livraison.png
+INPUT ./Figures/Screens/Infos livraison.png
+INPUT ./Figures/Screens/Infos livraison.png
+INPUT ./Figures/Screens/code prommo.png
+INPUT ./Figures/Screens/code prommo.png
+INPUT ./Figures/Screens/code prommo.png
+INPUT ./Figures/Screens/code prommo.png
+INPUT ./Figures/Screens/code prommo.png
+INPUT ./Figures/Screens/passe au facturation.png
+INPUT ./Figures/Screens/passe au facturation.png
+INPUT ./Figures/Screens/passe au facturation.png
+INPUT ./Figures/Screens/passe au facturation.png
+INPUT ./Figures/Screens/passe au facturation.png
+INPUT ./Figures/Screens/payment.png
+INPUT ./Figures/Screens/payment.png
+INPUT ./Figures/Screens/payment.png
+INPUT ./Figures/Screens/payment.png
+INPUT ./Figures/Screens/payment.png
+INPUT ./Figures/Screens/redirection.png
+INPUT ./Figures/Screens/redirection.png
+INPUT ./Figures/Screens/redirection.png
+INPUT ./Figures/Screens/redirection.png
+INPUT ./Figures/Screens/redirection.png
+INPUT ./Figures/Screens/patience.jpeg
+INPUT ./Figures/Screens/patience.jpeg
+INPUT ./Figures/Screens/patience.jpeg
+INPUT ./Figures/Screens/patience.jpeg
+INPUT ./Figures/Screens/patience.jpeg
+INPUT ./Figures/Screens/montant.jpeg
+INPUT ./Figures/Screens/montant.jpeg
+INPUT ./Figures/Screens/montant.jpeg
+INPUT ./Figures/Screens/montant.jpeg
+INPUT ./Figures/Screens/montant.jpeg
+INPUT ./Figures/Screens/reussi.jpeg
+INPUT ./Figures/Screens/reussi.jpeg
+INPUT ./Figures/Screens/reussi.jpeg
+INPUT ./Figures/Screens/reussi.jpeg
+INPUT ./Figures/Screens/reussi.jpeg
+INPUT ./Figures/Screens/confirmation du commande.png
+INPUT ./Figures/Screens/confirmation du commande.png
+INPUT ./Figures/Screens/confirmation du commande.png
+INPUT ./Figures/Screens/confirmation du commande.png
+INPUT ./Figures/Screens/confirmation du commande.png
+INPUT ./Figures/Screens/resumer commande.png
+INPUT ./Figures/Screens/resumer commande.png
+INPUT ./Figures/Screens/resumer commande.png
+INPUT ./Figures/Screens/resumer commande.png
+INPUT ./Figures/Screens/resumer commande.png
+INPUT ./Figures/Screens/annulation de commande.png
+INPUT ./Figures/Screens/annulation de commande.png
+INPUT ./Figures/Screens/annulation de commande.png
+INPUT ./Figures/Screens/annulation de commande.png
+INPUT ./Figures/Screens/annulation de commande.png
+INPUT ./Figures/Screens/Backoffice commande.png
+INPUT ./Figures/Screens/Backoffice commande.png
+INPUT ./Figures/Screens/Backoffice commande.png
+INPUT ./Figures/Screens/Backoffice commande.png
+INPUT ./Figures/Screens/Backoffice commande.png
+INPUT ./Figures/Screens/confirmation par mail.png
+INPUT ./Figures/Screens/confirmation par mail.png
+INPUT ./Figures/Screens/confirmation par mail.png
+INPUT ./Figures/Screens/confirmation par mail.png
+INPUT ./Figures/Screens/confirmation par mail.png
 INPUT ./Endmatter/Conclusion.tex
 INPUT ./Endmatter/Conclusion.tex
 INPUT Endmatter/Conclusion.tex

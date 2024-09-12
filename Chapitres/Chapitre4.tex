@@ -4,6 +4,153 @@
 
 Ce chapitre décrit l'implémentation du travail réalisé. Il commence par une présentation des technologies utilisées, suivie de captures d'écran illustrant les différentes fonctionnalités développées. Ensuite, les tests effectués sont exposés.
 \newpage
+\section{Technologies utilisées}
+\section{Captures d'écran}
+Cette partie fournit une vue détaillée des fonctionnalités développées à travers une série de captures d’écran.
+Avant de finaliser l'intégration de Payconiq via Adyen, il est crucial de vérifier que cette méthode de paiement est correctement activée dans le système. Comme le montre la figure \ref{fig:activ}, Payconiq est marqué comme actif dans le Cockpit d'administration de SAP Commerce. 
+Cela confirme qu'il est prêt à être utilisé pour le traitement des paiements, garantissant que les transactions effectuées avec Payconiq seront traitées correctement.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/VERIFIER QUE payment activer.png}
+    \captionof{figure}{Activation de Payconiq}
+    \label{fig:activ}
+\end{center}
+Une fois activée, Payconiq a été ajoutée à la boutique en ligne pour le marché belge. La figure \ref{fig:disp} montre que Payconiq apparaît désormais parmi les méthodes de paiement disponibles dans l'onglet eCommerce, aux côtés de giftcard, applepay-eu, et paypal-eu. Cette configuration permet aux utilisateurs de choisir Payconiq lors de la validation de leur commande.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/activation du payconiq pour belge.png}
+    \captionof{figure}{Disponibilité de Payconiq dans la boutique en ligne}
+    \label{fig:disp}
+\end{center}
+Lorsque le client sélectionne les articles désirés, il passe à la phase de paiement. La figure \ref{fig:selection} illustre l'ajout d'un produit au panier, une étape préalable au paiement.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/ajouter un produit au panier.png}
+    \captionof{figure}{Ajout d'un produit au panier}
+    \label{fig:selection}
+\end{center}
+C'est ici que commence la première étape du processus de paiement, où l'utilisateur est invité à saisir ses informations personnelles, y compris l'adresse e-mail, comme le montre la figure \ref{fig:saisie}.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/ajout de l'email.png}
+    \captionof{figure}{Fournir les informations personnelles}
+    \label{fig:saisie}
+\end{center}
+Après avoir rempli ses informations personnelles, l'utilisateur passe à la deuxième étape du processus de paiement, dédiée à la sélection du mode de livraison. Comme illustré dans la figure \ref{fig:mode}, cette étape permet à l'utilisateur de choisir entre la livraison à domicile ou le retrait en magasin (Click \& Collect). 
+En fonction de l'option sélectionnée, l'interface offre les champs nécessaires : pour la livraison à domicile, l'utilisateur doit fournir une adresse complète, tandis que pour le retrait en magasin, il choisit le point de retrait souhaité. Cette personnalisation assure une expérience de commande adaptée aux préférences de livraison de chaque utilisateur.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/Infos livraison.png}
+    \captionof{figure}{Mode de livraison}
+    \label{fig:mode}
+\end{center}
+Si un code promotionnel est disponible, l'utilisateur peut l'entrer dans le champ prévu à cet effet (\textit{Figure \ref{fig:promo}}) pour bénéficier d'une réduction. 
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/code prommo.png}
+    \captionof{figure}{Saisir un code promo}
+    \label{fig:promo}
+\end{center}
+En l'absence de code, l'utilisateur poursuit directement vers l'étape suivante : la facturation. À ce stade, il est invité à saisir ses informations de facturation. L'interface (\textit{Figure \ref{fig:facturation}}) propose de reprendre automatiquement l'adresse de livraison pour simplifier le processus, mais permet également de renseigner une adresse différente si nécessaire. Cette flexibilité assure que les informations de facturation peuvent être adaptées selon les besoins de l'utilisateur, tout en garantissant que les détails de facturation restent distincts de ceux de la livraison, si tel est le souhait.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/passe au facturation.png}
+    \captionof{figure}{Facturation}
+    \label{fig:facturation}
+\end{center}
+Après que le client a complété toutes ses informations de facturation, il accède à l'interface de sélection des modes de paiement(\textit{Figure \ref{fig:mode_paiement}}). À cette étape, il peut choisir parmi plusieurs options disponibles, y compris Payconiq, qui est mise en avant comme méthode de paiement. 
+L'interface est conçue pour faciliter le choix de la méthode préférée par l'utilisateur avant de procéder à l'étape suivante du processus de paiement.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/payment.png}
+    \captionof{figure}{Choix de mode de paiement}
+    \label{fig:mode_paiement}
+\end{center}
+Après avoir sélectionné le mode de paiement, l'utilisateur est dirigé vers l'API Adyen. Sur cette interface, un QR code est généré pour finaliser la transaction. Comme l'illustre la figure \ref{fig:qr}, ce QR code doit être scanné dans les 15 minutes pour éviter l'annulation automatique de la commande. L'interface fournit également un compte à rebours indiquant le temps restant pour effectuer le paiement, garantissant ainsi une expérience utilisateur fluide et sécurisée.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/redirection.png}
+    \captionof{figure}{Finalisation du paiement via l'API Adyen}
+    \label{fig:qr}
+\end{center}
+Une fois redirigé vers la page de paiement, l'utilisateur traverse plusieurs étapes :
+Tout d'abord, il est accueilli par un écran indiquant qu'il doit patienter pendant que la transaction est traitée. 
+\begin{center}
+    \centering
+    \includegraphics[width=10cm]{Figures/Screens/patience.jpeg}
+    \captionof{figure}{Écran de traitement en cours}
+    \label{fig:patience}
+\end{center}
+Ensuite, l'écran suivant affiche le montant total à payer et demande a l'utilisateur d'autoriser la transaction, comme le montre la figure \ref{fig:autorisation}
+\begin{center}
+    \centering
+    \includegraphics[width=10cm]{Figures/Screens/montant.jpeg}
+    \captionof{figure}{Montant à payer}
+    \label{fig:autorisation}
+\end{center}
+Enfin, lorsque la transaction est réussie, l'utilisateur est redirigé vers un écran de confirmation de paiement, illustré dans la figure \ref{fig:reussie}
+\begin{center}
+    \centering
+    \includegraphics[width=10cm]{Figures/Screens/reussi.jpeg}
+    \captionof{figure}{Paiement reussi}
+    \label{fig:reussie}
+\end{center}
+Après la finalisation réussie du paiement, l'utilisateur est dirigé vers une page de confirmation de commande (\textit{Figure \ref{fig:confirmation}}). Cette page présente un identifiant unique de suivi, facilitant le suivi de l'état de la commande. 
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/confirmation du commande.png}
+    \captionof{figure}{Confirmation de la commande}
+    \label{fig:confirmation}
+\end{center}
+En plus de cet identifiant, toutes les informations nécessaires sont fournies (\textit{Figure \ref{fig:resume}}), telles que l'email pour le suivi de la livraison. L'interface propose également des options pour gérer la commande, notamment la possibilité de créer un compte utilisateur pour un accès facilité aux informations de commande et aux fonctionnalités associées.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/resumer commande.png}
+    \captionof{figure}{Informations de la commande}
+    \label{fig:resume}
+\end{center}
+En cas d'annulation ou de non-approbation du paiement, la page de confirmation de commande affichera un message d'erreur détaillé. Comme le montre la figure \ref{fig:erreur}, un avertissement est clairement indiqué : "Remarque : les informations de paiement sont erronées. Veuillez vérifier ces informations afin de confirmer votre commande." Ce message signifie que le processus de validation du paiement n'a pas été complété correctement, nécessitant une révision des informations saisies pour procéder à la confirmation de la commande.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/annulation de commande.png}
+    \captionof{figure}{Message d'erreur en cas d'annulation du paiement}
+    \label{fig:erreur}
+\end{center}
+Si la commande est effectuée avec succès, la figure \ref{fig:admin} illustre l'interface backoffice qui confirme la création de la commande et la validation réussie du paiement. Dans cet écran, l'administrateur peut consulter les détails de la commande, s'assurer que le paiement a été correctement traité et apporter toute modification nécessaire. Cette étape est essentielle pour le suivi du processus de commande et permet de gérer efficacement les commandes après l'autorisation du paiement.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/Backoffice commande.png}
+    \captionof{figure}{Confirmation de la commande dans le backoffice}
+    \label{fig:admin}
+\end{center}
+Une fois la commande validée, un e-mail est automatiquement envoyé à l'utilisateur, confirmant les détails de l'achat et assurant une traçabilité complète. Ce message inclut des informations essentielles telles que le numéro de commande, les articles achetés, le montant total, ainsi que les coordonnées de livraison. Cette étape permet à l'utilisateur de suivre sa commande de manière transparente et de vérifier les détails importants relatifs à son achat.
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Screens/confirmation par mail.png}
+    \captionof{figure}{Message de confirmation par email}
+    \label{fig:email}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Tests et Validation}
 
 
 \section*{Conclusion}
