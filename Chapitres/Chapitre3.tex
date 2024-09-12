@@ -21,11 +21,9 @@ L'architecture e-commerce, telle que présentée ici, est volontairement simplif
     \item [$\bullet$]CapAdresse est utilisé pour valider l’adresse du client avant la confirmation de la commande, afin de garantir la précision de la livraison.
     \item [$\bullet$]Mailjet est utilisé pour envoyer des notifications aux clients concernant les transactions, les newsletters, et d'autres communications, comme la confirmation de commande, d’expédition, ou d’annulation en cas de problème de paiement.
     \item [$\bullet$]Gigya s’occupe de la gestion des comptes clients, notamment l’enregistrement et la connexion des utilisateurs sur le site.
-    \item [$\bullet$] Lorsqu'un client effectue un paiement sur le site, une requête est envoyée à Adyen pour obtenir une autorisation. Adyen traite la demande et renvoie une réponse indiquant si le paiement est "autorisé" ou "non autorisé". Si le paiement est refusé, le client est redirigé vers une page d'erreur. En revanche, si le paiement est approuvé, le client est dirigé vers la page de confirmation de commande, et simultanément, la commande est exportée vers Fluent Commerce, le système de gestion des commandes.Fluent Commerce est chargé de gérer le cycle de vie de la commande en attendant la notification d'Adyen confirmant que le paiement a bien été autorisé, car il peut être annulé en cas de fraude ou de problème de sécurité. Si la notification indique que le paiement a été annulé, Fluent communique avec Mailjet pour envoyer un e-mail d'annulation au client. Cependant, si le paiement est confirmé, un e-mail de confirmation de commande est envoyé via Mailjet. Par la suite, une fois la commande prête à être expédiée, Fluent envoie une requête de capture à Adyen. Dès qu'Adyen confirme que la capture a été effectuée avec succès, la commande est expédiée, et Mailjet envoie un e-mail de confirmation de livraison au client. En plus de ces tâches, Fluent Commerce prend également en charge plusieurs aspects logistiques de la commande, tels que la vérification de la disponibilité des produits, la gestion des entrepôts pour l’expédition, ainsi que le suivi du statut de la commande (en attente, en préparation, expédiée, etc.).
-
-
-    
 \end{itemize}
+Lorsqu'un client effectue un paiement sur le site, une requête est envoyée à Adyen pour obtenir une autorisation. Adyen traite la demande et renvoie une réponse indiquant si le paiement est "autorisé" ou "non autorisé". Si le paiement est refusé, le client est redirigé vers une page d'erreur. En revanche, si le paiement est approuvé, le client est dirigé vers la page de confirmation de commande, et simultanément, la commande est exportée vers Fluent Commerce, le système de gestion des commandes.Fluent Commerce est chargé de gérer le cycle de vie de la commande en attendant la notification d'Adyen confirmant que le paiement a bien été autorisé, car il peut être annulé en cas de fraude ou de problème de sécurité. Si la notification indique que le paiement a été annulé, Fluent communique avec Mailjet pour envoyer un e-mail d'annulation au client. Cependant, si le paiement est confirmé, un e-mail de confirmation de commande est envoyé via Mailjet. Par la suite, une fois la commande prête à être expédiée, Fluent envoie une requête de capture à Adyen. Dès qu'Adyen confirme que la capture a été effectuée avec succès, la commande est expédiée, et Mailjet envoie un e-mail de confirmation de livraison au client. En plus de ces tâches, Fluent Commerce prend également en charge plusieurs aspects logistiques de la commande, tels que la vérification de la disponibilité des produits, la gestion des entrepôts pour l’expédition, ainsi que le suivi du statut de la commande (en attente, en préparation, expédiée, etc.).
+
 \section{Architecture Backend}
 Notre solution est basée sur la plate-forme SAP Hybris et suit donc son architecture
 logicielle présentée dans la figure suivante :
@@ -73,6 +71,31 @@ L'architecture interne est implémentée au sein de SQLI et comprend un serveur 
 L'architecture externe est implémentée dans l'environnement du client et se compose de trois serveurs : UAT (User Acceptance Testing), OAT (Operational Acceptance Testing) et PROD (Production). Toutes les deux semaines, une nouvelle version est livrée dans le système de gestion de versions du client, TFS (Team Foundation Server).
 
 \begin{itemize} \item [$\bullet$]\textbf{Serveur UAT:} Utilisé pour tester les livrables et s'assurer qu'ils répondent aux attentes de l'utilisateur final. \item [$\bullet$]\textbf{Serveur OAT:} Permet de déterminer si les livrables sont opérationnels et prêts à être intégrés dans l'environnement de production. \item [$\bullet$]\textbf{Serveur PROD:} Après les processus de test, une mise en production (MEP) est effectuée tous les trois mois, rendant la version finale disponible pour les utilisateurs finaux. \end{itemize}
+
+\section{Architecture applicative}
+
+Dans le cadre de l'utilisation de la solution Hybris, il est conseillé de suivre l'architecture applicative qu'elle propose. Cette architecture est basée sur un modèle n-tiers largement utilisé dans les applications web, permettant une répartition claire des rôles et une meilleure structuration du code. Quatre principaux patrons de conception sont au cœur de cette architecture :
+
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/Dto.png}
+    \captionof{figure}{Architecture Applicative de l'application E-commerce}
+    \label{fig:processus}
+\end{center} 
+
+\begin{itemize}
+    \item[$\bullet$] \textbf{Modèle MVC (Modèle-Vue-Contrôleur)} : Ce modèle permet de séparer distinctement la présentation, la logique métier et l'accès aux données. Cela garantit une organisation modulaire, rendant l'application plus facile à maintenir et à étendre. Par exemple, dans notre application, la vue pourrait être gérée par des pages JSP ou des composants front-end, tandis que les contrôleurs orchestrent les opérations de la logique métier encapsulée dans les services.
+
+    \item[$\bullet$] \textbf{Patron de Façade} : Ce patron vise à simplifier l'accès à un système complexe en fournissant une interface unique et uniforme. Il permet d'interagir facilement avec des sous-systèmes tout en masquant leur complexité interne. Dans notre projet, une façade serait utile pour centraliser les interactions entre les services et les DAO, en facilitant ainsi l'appel des contrôleurs.
+
+    \item[$\bullet$] \textbf{Patron DAO (Data Access Object)} : Ce patron permet d'accéder aux données sans être lié à un SGBD spécifique, en fournissant une abstraction qui rend l'application plus flexible. Il encapsule la logique d'accès aux données, permettant d'intégrer facilement différents SGBD sans modifier le code de l'application. Par exemple, le DAO pour "Produit" ou "Client" peut contenir toute la logique nécessaire pour interagir avec les données associées, indépendamment de la base utilisée.
+
+    \item[$\bullet$] \textbf{Patron DTO (Data Transfer Object)} : Ce modèle optimise les échanges de données entre différentes couches de l'application en regroupant les informations dans des objets spécifiques. Il permet de réduire la surcharge de transfert de données, améliorant ainsi l'efficacité des communications entre les couches. Dans notre application, les DTO servent de pont entre la couche de service et la présentation, réduisant les dépendances et simplifiant les tests unitaires.
+\end{itemize}
+
+Adopter cette architecture permet non seulement une meilleure organisation du code, mais aussi d'assurer une évolutivité et une maintenance aisée à long terme.
+
+
 \subsection*{Conclusion}
 
 Ce chapitre a été dédié à l’étude conceptuelle du projet. Après une présentation des architectures adoptées et des divers diagrammes techniques de classes et de séquences, une compréhension approfondie du projet a été acquise. La prochaine étape consistera à aborder l’implémentation et la validation de la solution, sujet du chapitre suivant.
