@@ -5,6 +5,65 @@
 Ce chapitre décrit l'implémentation du travail réalisé. Il commence par une présentation des technologies utilisées, suivie de captures d'écran illustrant les différentes fonctionnalités développées. Ensuite, les tests effectués sont exposés.
 \newpage
 \section{Technologies utilisées}
+\subsection*{SAP Commerce (Hybris)}
+\begin{center}
+    \centering
+    \includegraphics[scale=0.5]{Figures/SAP.jpg}
+    \captionof{figure}{Logo de SAP }
+    \label{fig:processus}
+\end{center} 
+
+SAP Commerce (Hybris) est une plateforme de commerce électronique robuste et évolutive, conçue pour répondre aux besoins des entreprises dans un environnement omnicanal. Elle permet de gérer efficacement les catalogues de produits, les commandes, les paiements, ainsi que les interactions clients via divers canaux de vente tels que le web, les appareils mobiles, les points de vente physiques et autres. De plus, elle intègre des outils de suivi des performances et de marketing pour une gestion complète du commerce en ligne, ce qui justifie son choix dans notre projet.
+
+\subsection{JEE (JSP)}
+\begin{center}
+    \centering
+    \includegraphics[scale=0.5]{Figures/jee.png}
+    \captionof{figure}{Logo de JEE}
+    \label{fig:processus}
+\end{center} 
+Nous avons utilisé JEE (JSP) pour ajouter la partie frontend liée à notre méthode de paiement. Cette technologie nous a permis de créer des pages web dynamiques en combinant du code Java et HTML, ce qui facilite l'affichage interactif des informations de paiement et la gestion des transactions utilisateur. Grâce à JSP, nous avons pu développer une interface utilisateur réactive tout en gardant la flexibilité et la puissance du backend Java pour assurer la bonne gestion des flux de paiement.Nous avons utilisé JEE (JSP) pour ajouter la partie frontend liée à notre méthode de paiement. Cette technologie nous a permis de créer des pages web dynamiques en combinant du code Java et HTML, ce qui facilite l'affichage interactif des informations de paiement et la gestion des transactions utilisateur. Grâce à JSP, nous avons pu développer une interface utilisateur réactive tout en gardant la flexibilité et la puissance du backend Java pour assurer la bonne gestion des flux de paiement.
+
+\subsection*{Spring}
+\begin{center}
+    \centering
+    \includegraphics[scale=0.4]{Figures/spring.png}
+    \captionof{figure}{Logo de Spring}
+    \label{fig:processus}
+\end{center} 
+
+Dans le cadre de notre projet, Spring a été utilise pour développer la logique métier associée à la nouvelle méthode de paiement. Cela a impliqué la création de services back-end pour la validation des paiements, l'interaction avec les systèmes de paiement externes, et le traitement des retours d'information, garantissant ainsi une séparation claire des responsabilités et une maintenabilité accrue du code. Le choix de Spring s’explique par le fait que SAP Commerce (Hybris), sur lequel repose notre projet, est construit sur ce framework. Cette compatibilité assure une intégration fluide avec Hybris et permet de tirer parti des fonctionnalités avancées de Spring en matière de gestion des transactions et de sécurité, essentielles pour la fiabilité et la performance de la méthode de paiement.
+\subsection*{SonarQube}
+ \begin{center}
+    \centering
+    \includegraphics[scale=0.15]{Figures/sonarqube.png}
+    \captionof{figure}{Logo de SonarQube}
+    \label{fig:processus}
+\end{center} 
+
+Sonar est un outil d’analyse statique de code qui aide à évaluer la qualité du code source. Il détecte les bugs, les vulnérabilités de sécurité, et fournit des recommandations pour améliorer la lisibilité et la maintenabilité du code. L'utilisation de Sonar est souvent associée à des pratiques de développement telles que l'intégration continue pour garantir que le code livré soit de haute qualité.
+
+Dans le cadre de ce projet, Sonar a été utilisé pour analyser à la fois le code existant et les nouvelles fonctionnalités ajoutées. Cela nous a permis de corriger les bugs et les failles de sécurité identifiés par l'outil, et également d'utiliser les indicateurs de qualité fournis pour améliorer la structure et la lisibilité du code. Cette approche a garanti que le code respectait les standards de qualité du client.
+
+\subsection*{Ant}
+\begin{center}
+    \centering
+    \includegraphics[scale=0.05]{Figures/Ant.png}
+    \captionof{figure}{Logo d'Ant}
+
+\end{center}
+Ant, un outil de build open-source largement utilisé dans les projets Java, permet d’automatiser diverses tâches telles que la compilation, la création de fichiers exécutables, le déploiement et l'exécution des tests. Dans notre projet, Ant a été utilisé pour automatiser le processus de compilation, effectuer les tests unitaires, et faciliter le débogage. En raison de sa configuration native avec Hybris, qui repose sur des scripts Ant prédéfinis, notre choix d'Ant s'est avéré particulièrement adapté. Cela nous a permis d'organiser efficacement ces différentes étapes, assurant ainsi un flux de développement plus fluide et bien structuré.
+
+\subsection*{JUnit}
+\begin{center}
+    \centering
+    \includegraphics[scale=0.5]{Figures/junit.png}
+    \captionof{figure}{Logo de JUnit}
+    \label{fig:processus}
+\end{center}
+JUnit est un framework de tests unitaires en Java qui permet de tester les composants individuels d'une application pour s'assurer qu'ils fonctionnent comme prévu. Il est essentiel dans le processus de développement, car il permet d'identifier et de corriger rapidement les bugs tout en garantissant que le code fonctionne correctement après chaque modification.
+
+Dans le cadre de l'intégration de la nouvelle méthode de paiement, j'ai écrit des tests unitaires en utilisant JUnit pour vérifier la fiabilité des fonctionnalités back-end. J'ai testé des scénarios comme la validation des transactions, la gestion des erreurs, et les interactions avec les systèmes externes. Grâce à l'exigence du client d'une couverture de 100% des tests, nous avons veillé à ce que chaque composant du système soit minutieusement testé, garantissant ainsi que toutes les fonctionnalités répondaient aux spécifications et étaient exemptes de bugs.
 \section{Captures d'écran}
 Cette partie fournit une vue détaillée des fonctionnalités développées à travers une série de captures d’écran.
 Avant de finaliser l'intégration de Payconiq via Adyen, il est crucial de vérifier que cette méthode de paiement est correctement activée dans le système. Comme le montre la figure \ref{fig:activ}, Payconiq est marqué comme actif dans le Cockpit d'administration de SAP Commerce. 
