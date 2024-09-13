@@ -1,7 +1,7 @@
 \chapter{Conception de la solution}
 \label{Conception de la solution}
 
-Ce chapitre se concentre sur l'architecture physique et applicative adoptée. Il inclut également une exploration approfondie de la conception, illustrée par des diagrammes techniques de classes et de séquences détaillées, en se basant sur les spécifications établies dans le deuxième chapitre.
+Ce chapitre se concentre sur l'architecture physique et applicative adoptée. Il inclut également une exploration approfondie de la conception, illustrée par des diagrammes techniques de classe et de séquence, en se basant sur les spécifications établies dans le deuxième chapitre.
 \newpage
 
 \section{Architecture de l'application}
@@ -24,14 +24,12 @@ L'architecture e-commerce, telle que présentée ici, est volontairement simplif
 \end{itemize}
 Lorsqu'un client effectue un paiement sur le site, une requête est envoyée à Adyen pour obtenir une autorisation. Adyen traite la demande et renvoie une réponse indiquant si le paiement est "autorisé" ou "non autorisé". Si le paiement est refusé, le client est redirigé vers une page d'erreur. En revanche, si le paiement est approuvé, le client est dirigé vers la page de confirmation de commande, et simultanément, la commande est exportée vers Fluent Commerce, le système de gestion des commandes.Fluent Commerce est chargé de gérer le cycle de vie de la commande en attendant la notification d'Adyen confirmant que le paiement a bien été autorisé, car il peut être annulé en cas de fraude ou de problème de sécurité. Si la notification indique que le paiement a été annulé, Fluent communique avec Mailjet pour envoyer un e-mail d'annulation au client. Cependant, si le paiement est confirmé, un e-mail de confirmation de commande est envoyé via Mailjet. Par la suite, une fois la commande prête à être expédiée, Fluent envoie une requête de capture à Adyen. Dès qu'Adyen confirme que la capture a été effectuée avec succès, la commande est expédiée, et Mailjet envoie un e-mail de confirmation de livraison au client. En plus de ces tâches, Fluent Commerce prend également en charge plusieurs aspects logistiques de la commande, tels que la vérification de la disponibilité des produits, la gestion des entrepôts pour l’expédition, ainsi que le suivi du statut de la commande (en attente, en préparation, expédiée, etc.).
 
-\subsection{Architecture Backend}
-Notre solution est basée sur la plate-forme SAP Hybris et suit donc son architecture
-logicielle présentée dans la figure suivante :
-
+\subsection{Architecture Backend Simplifiée}
+Notre solution est basée sur la plate-forme SAP Hybris Et suit donc l'architecture presentée ci-dessous :
 \begin{center}
     \centering
     \includegraphics[width=19cm]{Figures/architecturebacend.png}
-    \captionof{figure}{Architecture de backend de l'application E-commerce}
+    \captionof{figure}{Architecture backend simplifiée de l'application E-commerce}
     \label{fig:processus}
 \end{center}
 
@@ -42,15 +40,15 @@ logicielle présentée dans la figure suivante :
     \item [$\bullet$]\textbf{Couche de Persistance de Hybris:} La couche de persistance est le composant qui assure l'interaction entre le Service Layer et la base de données. Elle est responsable de la gestion de toutes les opérations de lecture et d'écriture dans la base de données, garantissant que les données sont stockées de manière efficace et peuvent être récupérées de manière fiable. 
 \end{itemize}
 
-\subsection{Environnent de livraison et test }
+\subsection{Environnent de livraison et de test }
 
 
-Cette section présente processus de déploiement du projet, en détaillant les différents serveurs utilisés. La structure se compose de deux parties principales : interne et externe.
+Cette section présente le processus de déploiement du projet, en détaillant les différents serveurs utilisés. La structure se compose de deux parties principales : interne et externe.
 
 \begin{center}
     \centering
     \includegraphics[width=19cm]{Figures/Test.png}
-    \captionof{figure}{Architecture de livraison et test simplifiée}
+    \captionof{figure}{Architecture de livraison et de test simplifiée}
     \label{fig:processus}
 \end{center}
 \begin{center}
@@ -123,5 +121,5 @@ Si le paiement est autorisé, la commande est complétée avec le statut "créé
 
 \subsection*{Conclusion}
 
-Ce chapitre a été dédié à l’étude conceptuelle du projet. Après une présentation des architectures adoptées et des divers diagrammes techniques de classes et de séquences, une compréhension approfondie du projet a été acquise. La prochaine étape consistera à aborder l’implémentation et la validation de la solution, sujet du chapitre suivant.
+Ce chapitre a été dédié à l’étude conceptuelle du projet. Après une présentation des architectures adoptées et des diagrammes techniques de classe et de séquence, une compréhension approfondie du projet a été acquise. La prochaine étape consistera à aborder l’implémentation et la validation de la solution, sujet du chapitre suivant.
 \pagebreak
