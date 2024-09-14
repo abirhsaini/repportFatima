@@ -2,7 +2,7 @@
 \chapter{Analyse et spécification des besoins}
 \label{chap:Analyse et spécification des besoins}
 
-Ce chapitre présente l'analyse de l'existant et la spécification des besoins pour l'intégration de Payconiq by Bancontact . Il examine les méthodes de paiement actuelles, les spécificités du marché belge, l'architecture existante, ainsi que les besoins fonctionnels et non fonctionnels.
+Ce chapitre présente l'analyse de l'existant et la spécification des besoins pour l'intégration de Payconiq by Bancontact. Il examine les méthodes de paiement actuelles, les spécificités du marché belge, le processus de paiement en place, ainsi que les besoins fonctionnels et non fonctionnels.
 \pagebreak
 
 \section{Étude de l’existant}
@@ -52,7 +52,7 @@ Pour mieux comprendre le fonctionnement de ces composants, examinons le flux du 
     \item \textbf{Création :} Hybris enregistre la commande et notifie Fluent pour la gestion logistique.
     \item \textbf{Suivi :} Fluent assure la gestion des statuts de commande et informe Hybris pour la mise à jour du client.
 \end{enumerate}
-\section{Etude fonctionnelle et non fonctionnelle}
+\section{Identification et analyse des exigences}
 Dans le cadre de l'intégration de Payconiq à la plateforme e-commerce du client, il est essentiel de définir clairement les besoins fonctionnels et non fonctionnels du projet. 
 Cette étude permettra d'identifier les exigences spécifiques liées à cette intégration, assurant ainsi une mise en œuvre réussie et une expérience utilisateur optimale. 
 
@@ -60,11 +60,11 @@ Cette étude permettra d'identifier les exigences spécifiques liées à cette i
 
 \subsubsection{Identification des fonctionnalités}
 \begin{itemize}
-    \item [$\bullet$]\textbf{Sélection de Payconiq comme méthode de paiement :} L'option Payconiq doit être disponible lors de la finalisation de la commande, présentée de manière intuitive et clairement distinguée parmi les autres choix de paiement.
-    \item [$\bullet$]\textbf{Génération et affichage du QR Code pour le paiement :} Lors de la confirmation de la commande avec Payconiq, un QR code unique est généré automatiquement et affiché à l'utilisateur pour permettre un paiement sécurisé via l'application Payconiq.
-    \item [$\bullet$]\textbf{Suivi des transactions dans l'historique des commandes :} Les transactions effectuées avec Payconiq sont accessibles dans l'historique des commandes de l'utilisateur, avec une identification claire comprenant la date, le montant et l'état du paiement.
-    \item [$\bullet$]\textbf{Envoi d'un email de confirmation de commande :} Après la finalisation de la commande, un email de confirmation est envoyé à l'utilisateur, incluant les détails de la commande, la méthode de paiement utilisée (Payconiq), le montant total et les informations de suivi de la commande.
-    \item [$\bullet$]\textbf{Message d'erreur en cas d'échec du paiement :} En cas d'échec du paiement avec Payconiq, un message d'erreur explicite informe l'utilisateur du problème, avec des options de paiement alternatives proposées pour finaliser la transaction sans interruption.
+    \item [$\bullet$]\textbf{Sélection de Payconiq comme méthode de paiement :} L’option Payconiq devra être disponible lors de la finalisation de la commande, présentée de manière intuitive et clairement distinguée parmi les autres choix de paiement.
+    \item [$\bullet$]\textbf{Génération et affichage du QR Code pour le paiement :} Lors de la confirmation de la commande avec Payconiq, un QR code unique devra être généré automatiquement et affiché à l’utilisateur pour permettre un paiement sécurisé via l’application Payconiq.
+    \item [$\bullet$]\textbf{Suivi des transactions dans l'historique des commandes :} Les transactions effectuées avec Payconiq devront être accessibles dans l’historique des commandes de l’utilisateur, avec une identification claire comprenant la date, le montant et l’état du paiement.
+    \item [$\bullet$]\textbf{Envoi d'un email de confirmation de commande :} Après la finalisation de la commande, un email de confirmation devra être envoyé à l’utilisateur, incluant les détails de la commande, la méthode de paiement utilisée (Payconiq), le montant total et les informations de suivi de la commande.
+    \item [$\bullet$]\textbf{Message d'erreur en cas d'échec du paiement :} En cas d’échec du paiement avec Payconiq, un message d’erreur explicite devra informer l’utilisateur du problème, avec des options de paiement alternatives proposées pour finaliser la transaction sans interruption.
 \end{itemize}
 
 \subsubsection{Diagramme de cas d’utilisation}

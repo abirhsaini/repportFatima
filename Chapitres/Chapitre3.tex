@@ -1,7 +1,7 @@
 \chapter{Conception de la solution}
 \label{Conception de la solution}
 
-Ce chapitre se concentre sur l'architecture physique et applicative adoptée. Il inclut également une exploration approfondie de la conception, illustrée par des diagrammes techniques de classe et de séquence, en se basant sur les spécifications établies dans le deuxième chapitre.
+Ce chapitre se concentre sur l'architecture de l'application. Il inclut également une exploration approfondie de la conception, illustrée par des diagrammes techniques de classe et de séquence, en se basant sur les spécifications établies dans le deuxième chapitre.
 \newpage
 
 \section{Architecture de l'application}
@@ -24,11 +24,11 @@ L'architecture e-commerce, telle que présentée ici, est volontairement simplif
 \end{itemize}
 Lorsqu'un client effectue un paiement sur le site, une requête est envoyée à Adyen pour obtenir une autorisation. Adyen traite la demande et renvoie une réponse indiquant si le paiement est "autorisé" ou "non autorisé". Si le paiement est refusé, le client est redirigé vers une page d'erreur. En revanche, si le paiement est approuvé, le client est dirigé vers la page de confirmation de commande, et simultanément, la commande est exportée vers Fluent Commerce, le système de gestion des commandes.Fluent Commerce est chargé de gérer le cycle de vie de la commande en attendant la notification d'Adyen confirmant que le paiement a bien été autorisé, car il peut être annulé en cas de fraude ou de problème de sécurité. Si la notification indique que le paiement a été annulé, Fluent communique avec Mailjet pour envoyer un e-mail d'annulation au client. Cependant, si le paiement est confirmé, un e-mail de confirmation de commande est envoyé via Mailjet. Par la suite, une fois la commande prête à être expédiée, Fluent envoie une requête de capture à Adyen. Dès qu'Adyen confirme que la capture a été effectuée avec succès, la commande est expédiée, et Mailjet envoie un e-mail de confirmation de livraison au client. En plus de ces tâches, Fluent Commerce prend également en charge plusieurs aspects logistiques de la commande, tels que la vérification de la disponibilité des produits, la gestion des entrepôts pour l’expédition, ainsi que le suivi du statut de la commande (en attente, en préparation, expédiée, etc.).
 
-\subsection{Architecture Backend Simplifiée}
+\subsection{Architecture backend simplifiée}
 Notre solution est basée sur la plate-forme SAP Hybris Et suit donc l'architecture presentée ci-dessous :
 \begin{center}
     \centering
-    \includegraphics[width=19cm]{Figures/architecturebacend.png}
+    \includegraphics[width=14cm]{Figures/architecturebacend.png}
     \captionof{figure}{Architecture backend simplifiée de l'application E-commerce}
     \label{fig:processus}
 \end{center}
@@ -77,7 +77,7 @@ Dans le cadre de l'utilisation de la solution Hybris, il est conseillé de suivr
 \begin{center}
     \centering
     \includegraphics[width=19cm]{Figures/Dto.png}
-    \captionof{figure}{Architecture Applicative de l'application E-commerce}
+    \captionof{figure}{Architecture applicative de l'application E-commerce}
     \label{fig:processus}
 \end{center} 
 
