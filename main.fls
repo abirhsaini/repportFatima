@@ -474,9 +474,6 @@ INPUT C:\Users\Fatima TAOUFIQ\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\
 INPUT .\main.aux
 INPUT .\main.aux
 INPUT main.aux
-INPUT .\Frontmatter\Page_de_Garde_EN.aux
-INPUT .\Frontmatter\Page_de_Garde_EN.aux
-INPUT Frontmatter\Page_de_Garde_EN.aux
 OUTPUT main.aux
 INPUT C:\Users\Fatima TAOUFIQ\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Fatima TAOUFIQ\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -487,14 +484,8 @@ INPUT C:\Users\Fatima TAOUFIQ\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\e
 INPUT C:\Users\Fatima TAOUFIQ\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Fatima TAOUFIQ\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Fatima TAOUFIQ\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT .\main.out
-INPUT .\main.out
-INPUT main.out
-INPUT main.out
-OUTPUT main.pdf
-INPUT .\main.out
-INPUT .\main.out
 OUTPUT main.out
+OUTPUT main.pdf
 INPUT C:\Users\Fatima TAOUFIQ\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\Fatima TAOUFIQ\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\Fatima TAOUFIQ\AppData\Local\Programs\MiKTeX\tex\latex\arabtex\apatch.sty
@@ -613,17 +604,8 @@ INPUT .\Endmatter\Acronyms.tex
 INPUT .\Endmatter\Acronyms.tex
 INPUT Endmatter\Acronyms.tex
 INPUT C:\Users\Fatima TAOUFIQ\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmro12.tfm
-INPUT .\main.toc
-INPUT .\main.toc
-INPUT main.toc
 OUTPUT main.toc
-INPUT .\main.lof
-INPUT .\main.lof
-INPUT main.lof
 OUTPUT main.lof
-INPUT .\main.lot
-INPUT .\main.lot
-INPUT main.lot
 OUTPUT main.lot
 INPUT .\Frontmatter\IntroductionGenerale.tex
 INPUT .\Frontmatter\IntroductionGenerale.tex
