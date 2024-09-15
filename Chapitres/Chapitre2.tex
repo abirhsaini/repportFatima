@@ -47,7 +47,7 @@ Les composants clés du système sont les suivants :
 Pour mieux comprendre le fonctionnement de ces composants, examinons le flux du processus de paiement étape par étape :
 \begin{enumerate}
     \item \textbf{Initiation :} Le client valide son panier et soumet sa commande.
-    \item \textbf{Transmission :} Hybris communique les informations de paiement à Adyen.
+    \item \textbf{Transmission :} Hybris envoie une requête à Adyen pour déclencher le processus de paiement.
     \item \textbf{Traitement :} Adyen exécute la transaction et renvoie une confirmation à Hybris.
     \item \textbf{Création :} Hybris enregistre la commande et notifie Fluent pour la gestion logistique.
     \item \textbf{Suivi :} Fluent assure la gestion des statuts de commande et informe Hybris pour la mise à jour du client.
