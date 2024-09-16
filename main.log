@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.1)  16 SEP 2024 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.1)  16 SEP 2024 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2103,13 +2103,13 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 76--77
  [] 
  []
 
-<Figures/Screens/ajouter un produit au panier.png, id=719, 1862.96pt x 1017.802
-5pt>
+<Figures/Screens/ajouter un produit au panier.png, id=719, 1117.776pt x 610.079
+25pt>
 File: Figures/Screens/ajouter un produit au panier.png Graphic file (type png)
 <use Figures/Screens/ajouter un produit au panier.png>
 Package pdftex.def Info: Figures/Screens/ajouter un produit au panier.png  used
  on input line 83.
-(pdftex.def)             Requested size: 540.60236pt x 295.34154pt.
+(pdftex.def)             Requested size: 540.60236pt x 295.05957pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 84.
@@ -2122,12 +2122,12 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 83--84
 
 [41 <./Figures/Screens/VERIFIER QUE payment activer.png> <./Figures/Screens/act
 ivation du payconiq pour belge.png>]
-<Figures/Screens/ajout de l'email.png, id=727, 1862.96pt x 1017.8025pt>
+<Figures/Screens/ajout de l'email.png, id=727, 1117.776pt x 610.07925pt>
 File: Figures/Screens/ajout de l'email.png Graphic file (type png)
 <use Figures/Screens/ajout de l'email.png>
 Package pdftex.def Info: Figures/Screens/ajout de l'email.png  used on input li
 ne 90.
-(pdftex.def)             Requested size: 540.60236pt x 295.34154pt.
+(pdftex.def)             Requested size: 540.60236pt x 295.05957pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2141,12 +2141,12 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 90--91
 
 [42 <./Figures/Screens/ajouter un produit au panier.png> <./Figures/Screens/ajo
 ut de l'email.png>]
-<Figures/Screens/Infos livraison.png, id=735, 1862.96pt x 1017.8025pt>
+<Figures/Screens/Infos livraison.png, id=735, 1117.776pt x 610.07925pt>
 File: Figures/Screens/Infos livraison.png Graphic file (type png)
 <use Figures/Screens/Infos livraison.png>
 Package pdftex.def Info: Figures/Screens/Infos livraison.png  used on input lin
 e 98.
-(pdftex.def)             Requested size: 540.60236pt x 295.34154pt.
+(pdftex.def)             Requested size: 540.60236pt x 295.05957pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2158,12 +2158,12 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 98--99
  [] 
  []
 
-<Figures/Screens/code prommo.png, id=737, 1862.96pt x 1017.8025pt>
+<Figures/Screens/code prommo.png, id=737, 1117.776pt x 610.07925pt>
 File: Figures/Screens/code prommo.png Graphic file (type png)
 <use Figures/Screens/code prommo.png>
 Package pdftex.def Info: Figures/Screens/code prommo.png  used on input line 10
 5.
-(pdftex.def)             Requested size: 540.60236pt x 295.34154pt.
+(pdftex.def)             Requested size: 540.60236pt x 295.05957pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 106.
@@ -2175,12 +2175,12 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 105--106
  []
 
 [43 <./Figures/Screens/Infos livraison.png>]
-<Figures/Screens/passe au facturation.png, id=744, 1862.96pt x 1017.8025pt>
+<Figures/Screens/passe au facturation.png, id=744, 1117.776pt x 610.07925pt>
 File: Figures/Screens/passe au facturation.png Graphic file (type png)
 <use Figures/Screens/passe au facturation.png>
 Package pdftex.def Info: Figures/Screens/passe au facturation.png  used on inpu
 t line 112.
-(pdftex.def)             Requested size: 540.60236pt x 295.34154pt.
+(pdftex.def)             Requested size: 540.60236pt x 295.05957pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2193,11 +2193,11 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 112--113
  []
 
 [44 <./Figures/Screens/code prommo.png>]
-<Figures/Screens/payment.png, id=751, 1862.96pt x 1017.8025pt>
+<Figures/Screens/payment.png, id=751, 1117.776pt x 610.07925pt>
 File: Figures/Screens/payment.png Graphic file (type png)
 <use Figures/Screens/payment.png>
 Package pdftex.def Info: Figures/Screens/payment.png  used on input line 120.
-(pdftex.def)             Requested size: 540.60236pt x 295.34154pt.
+(pdftex.def)             Requested size: 540.60236pt x 295.05957pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2263,13 +2263,13 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [48 <./Figures/Screens/montant.jpeg>]
-<Figures/Screens/confirmation du commande.png, id=780, 1862.96pt x 1017.8025pt>
-
+<Figures/Screens/confirmation du commande.png, id=780, 1117.776pt x 610.07925pt
+>
 File: Figures/Screens/confirmation du commande.png Graphic file (type png)
 <use Figures/Screens/confirmation du commande.png>
 Package pdftex.def Info: Figures/Screens/confirmation du commande.png  used on 
 input line 156.
-(pdftex.def)             Requested size: 540.60236pt x 295.34154pt.
+(pdftex.def)             Requested size: 540.60236pt x 295.05957pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2282,12 +2282,12 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 156--157
  []
 
 [49 <./Figures/Screens/reussi.jpeg>]
-<Figures/Screens/resumer commande.png, id=786, 1862.96pt x 1017.8025pt>
+<Figures/Screens/resumer commande.png, id=786, 1117.776pt x 610.07925pt>
 File: Figures/Screens/resumer commande.png Graphic file (type png)
 <use Figures/Screens/resumer commande.png>
 Package pdftex.def Info: Figures/Screens/resumer commande.png  used on input li
 ne 163.
-(pdftex.def)             Requested size: 540.60236pt x 295.34154pt.
+(pdftex.def)             Requested size: 540.60236pt x 295.05957pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2300,13 +2300,12 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 163--164
  []
 
 [50 <./Figures/Screens/confirmation du commande.png>]
-<Figures/Screens/annulation de commande.png, id=793, 1859.94875pt x 1016.79875p
-t>
+<Figures/Screens/annulation de commande.png, id=793, 1115.367pt x 609.477pt>
 File: Figures/Screens/annulation de commande.png Graphic file (type png)
 <use Figures/Screens/annulation de commande.png>
 Package pdftex.def Info: Figures/Screens/annulation de commande.png  used on in
 put line 170.
-(pdftex.def)             Requested size: 540.60236pt x 295.53123pt.
+(pdftex.def)             Requested size: 540.60236pt x 295.41pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2337,12 +2336,12 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 177--178
  []
 
 [52 <./Figures/Screens/annulation de commande.png>]
-<Figures/Screens/confirmation par mail.png, id=807, 1856.9375pt x 1015.795pt>
+<Figures/Screens/confirmation par mail.png, id=807, 1114.1625pt x 609.477pt>
 File: Figures/Screens/confirmation par mail.png Graphic file (type png)
 <use Figures/Screens/confirmation par mail.png>
 Package pdftex.def Info: Figures/Screens/confirmation par mail.png  used on inp
 ut line 184.
-(pdftex.def)             Requested size: 540.60236pt x 295.71999pt.
+(pdftex.def)             Requested size: 540.60236pt x 295.7262pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2776,7 +2775,7 @@ C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb><C
 :/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14bf.pf
 b>
-Output written on main.pdf (76 pages, 5223167 bytes).
+Output written on main.pdf (76 pages, 5207738 bytes).
 PDF statistics:
  962 PDF objects out of 1000 (max. 8388607)
  207 named destinations out of 1000 (max. 500000)
