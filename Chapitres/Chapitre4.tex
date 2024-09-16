@@ -9,7 +9,7 @@ Ce chapitre décrit l'implémentation du travail réalisé. Il commence par une 
 \begin{center}
     \centering
     \includegraphics[scale=0.5]{Figures/SAP.jpg}
-    \captionof{figure}{Logo de SAP }
+    \captionof{figure}{Logo de SAP \cite{SAP}}
     \label{fig:processus}
 \end{center} 
 
@@ -19,7 +19,7 @@ SAP Commerce (Hybris) est une plateforme de commerce électronique robuste et é
 \begin{center}
     \centering
     \includegraphics[scale=0.5]{Figures/jee.png}
-    \captionof{figure}{Logo de JEE}
+    \captionof{figure}{Logo de JEE \cite{JEE}}
     \label{fig:processus}
 \end{center} 
 
@@ -28,7 +28,7 @@ JEE (JSP) a été utilisé pour développer la partie frontend de la méthode de
 \begin{center}
     \centering
     \includegraphics[scale=0.4]{Figures/spring.png}
-    \captionof{figure}{Logo de Spring}
+    \captionof{figure}{Logo de Spring \cite{spring}}
     \label{fig:processus}
 \end{center} 
 
@@ -37,7 +37,7 @@ Spring a été employé pour développer la logique métier associée à la nouv
  \begin{center}
     \centering
     \includegraphics[scale=0.15]{Figures/sonarqube.png}
-    \captionof{figure}{Logo de SonarQube}
+    \captionof{figure}{Logo de SonarQube \cite{sonarqube}}
     \label{fig:processus}
 \end{center} 
 
@@ -46,7 +46,7 @@ SonarQube est un outil d'analyse statique de code permettant de détecter les bu
 \begin{center}
     \centering
     \includegraphics[scale=0.05]{Figures/Ant.png}
-    \captionof{figure}{Logo d'Ant}
+    \captionof{figure}{Logo d'Ant \cite{ant}}
 \end{center}
 
 Ant est un outil de build open-source qui permet d'automatiser diverses tâches liées au processus de développement, telles que la compilation, le déploiement, et l'exécution des tests. Dans le cadre de ce projet, Ant a été utilisé pour automatiser la compilation du code, faciliter le débogage, et exécuter les tests unitaires. Grâce à sa configuration native avec Hybris, qui utilise des scripts Ant prédéfinis, Ant a contribué à une organisation efficace des étapes de développement, assurant ainsi un flux de travail structuré et fluide.
@@ -54,7 +54,7 @@ Ant est un outil de build open-source qui permet d'automatiser diverses tâches 
 \begin{center}
     \centering
     \includegraphics[scale=0.5]{Figures/junit.png}
-    \captionof{figure}{Logo de JUnit}
+    \captionof{figure}{Logo de JUnit\cite{junit}}
     \label{fig:processus}
 \end{center}
 
@@ -196,13 +196,36 @@ En corrigeant ces anomalies, j'ai non seulement amélioré la maintenabilité du
     \captionof{figure}{Bugs détectés par SonarQube}
     \label{fig:corr}
 \end{center}
-La figure \ref{fig:ticket} illustre un exemple de ticket de bug  créé pour suivre les anomalies détectées. Ce processus de gestion des bugs est essentiel pour identifier et résoudre les problèmes techniques, ce qui garantit la  stabilité  et la  qualité  du produit final. Travailler sur ces tickets a également permis de faciliter la collaboration entre les équipes, améliorant ainsi l'expérience utilisateur globale.
+Pour corriger ces bugs critiques, plusieurs bonnes pratiques ont été mises en œuvre, notamment :
+
+\begin{itemize}
+    \item[$\bullet$] \textbf{Extraction des chaînes de caractères répétitives} : Les chaînes de caractères fréquemment répétées dans le code ont été isolées et déclarées sous forme de variables constantes, réduisant ainsi la redondance et facilitant la maintenance.
+    \item[$\bullet$] \textbf{Réduction de la complexité des méthodes} : Les méthodes présentant une complexité cognitive élevée ont été découpées en sous-méthodes plus simples et cohérentes, améliorant ainsi la lisibilité du code et facilitant sa compréhension.
+    \item[$\bullet$] \textbf{Refactorisation du code en suivant le principe DRY (Don't Repeat Yourself)} : Les portions de code dupliquées ont été consolidées et regroupées dans des fonctions réutilisables, ce qui a permis de limiter les répétitions et d'optimiser la structure globale du projet.
+\end{itemize}
+
+Suite à une analyse avec SonarLint, nous avons vérifié que toutes les anomalies critiques ont bien été corrigées.
+
+\begin{center}
+    \centering
+    \includegraphics[width=19cm]{Figures/bug1.png}
+    \captionof{figure}{Analyse avec SonarLint après correction}
+\end{center}
+
+
+Dans le cadre de notre analyse, nous identifions si le problème provient de notre côté, au niveau du backend, ou s'il est lié à une autre équipe. Si le problème est de notre responsabilité, nous procédons à la correction. Dans le cas où il est lié à une autre équipe, nous demandons l'association du ticket à cette dernière et veillons à leur transmettre toutes les informations nécessaires pour faciliter leur analyse.
+
+ La figure  \ref{fig:ticket}  montre un exemple de ticket de bug utilisé pour suivre les anomalies détectées. La gestion des bugs est cruciale pour identifier et résoudre les problèmes techniques, garantissant ainsi la stabilité et la qualité du produit. Ce processus favorise également la collaboration entre les équipes, contribuant à améliorer l'expérience utilisateur.
 \begin{center}
     \centering
     \includegraphics[width=19cm]{Figures/Screens/ticket.png}
     \captionof{figure}{Exemple ticket de debugging}
     \label{fig:ticket}
 \end{center}
+
+
+
+
 \section{Tests et Validation}
 \subsection{Tests}
 Les tests constituent une étape essentielle pour s'assurer du bon fonctionnement du système et de sa conformité aux attentes. Ils aident à repérer et corriger d'éventuelles anomalies avant la mise en production. Nous avons ainsi mené différents types de tests, allant des tests unitaires aux tests fonctionnels, réalisés sur plusieurs environnements :

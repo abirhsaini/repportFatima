@@ -53,9 +53,9 @@
 \contentsline {section}{\numberline {4.1}Technologies utilisées}{38}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Illustration de l'Intégration de la Méthode de Paiement}{40}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Analyse et Correction des Anomalies}{54}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Tests et Validation}{55}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Tests}{55}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Validation des besoins fonctionnels}{57}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Validation des besoins non fonctionnels}{57}{subsection.4.4.3}%
-\contentsline {chapter}{Conclusion}{59}{appendix*.17}%
-\contentsline {chapter}{Références}{59}{appendix*.17}%
+\contentsline {section}{\numberline {4.4}Tests et Validation}{57}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Tests}{57}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Validation des besoins fonctionnels}{58}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Validation des besoins non fonctionnels}{58}{subsection.4.4.3}%
+\contentsline {chapter}{Conclusion}{60}{appendix*.17}%
+\contentsline {chapter}{Références}{60}{appendix*.17}%
