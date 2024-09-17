@@ -23,12 +23,12 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Diagramme de classe}}{34}{figure.3.6}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Diagramme de séquence }}{35}{figure.3.7}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo de SAP }}{38}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo de JEE}}{38}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Logo de Spring}}{39}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Logo de SonarQube}}{39}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Logo d'Ant}}{40}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Logo de JUnit}}{40}{figure.4.6}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo de SAP \cite {SAP}}}{38}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo de JEE \cite {JEE}}}{38}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Logo de Spring \cite {spring}}}{39}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Logo de SonarQube \cite {sonarqube}}}{39}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Logo d'Ant \cite {ant}}}{40}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Logo de JUnit\cite {junit}}}{40}{figure.4.6}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Activation de Payconiq}}{41}{figure.4.7}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Disponibilité de Payconiq dans la boutique en ligne}}{41}{figure.4.8}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Ajout d'un produit au panier}}{42}{figure.4.9}%
@@ -47,6 +47,7 @@
 \contentsline {figure}{\numberline {4.22}{\ignorespaces Confirmation de la commande dans le backoffice}}{53}{figure.4.22}%
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Message de confirmation par email}}{54}{figure.4.23}%
 \contentsline {figure}{\numberline {4.24}{\ignorespaces Bugs détectés par SonarQube}}{55}{figure.4.24}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Exemple ticket de debugging}}{55}{figure.4.25}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Couverture de code à 100\%}}{56}{figure.4.26}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Succès de tous les cas de test}}{56}{figure.4.27}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Analyse avec SonarLint après correction}}{56}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Exemple ticket de debugging}}{56}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Couverture de code à 100\%}}{57}{figure.4.27}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Succès de tous les cas de test}}{57}{figure.4.28}%
