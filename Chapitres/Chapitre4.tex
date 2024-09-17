@@ -1,4 +1,4 @@
-\chapter{Implémentation et Validation}
+\chapter{Implémentation et validation}
 \label{chap:Implémentation et Validation}
 
 
@@ -59,7 +59,7 @@ Ant est un outil de build open-source qui permet d'automatiser diverses tâches 
 \end{center}
 
 JUnit est un framework de tests unitaires en Java utilisé pour tester les composants individuels d'une application. Pour l'intégration de la nouvelle méthode de paiement, JUnit a été employé pour écrire des tests unitaires afin de vérifier la fiabilité des fonctionnalités back-end. Les tests couvraient divers scénarios, y compris la validation des transactions, la gestion des erreurs, et les interactions avec les systèmes externes.
-\section{Illustration de l'Intégration de la Méthode de Paiement}
+\section{Illustration de l'intégration de la méthode de paiement}
 Cette partie fournit une vue détaillée des fonctionnalités développées à travers une série de captures d’écran.
 Avant de finaliser l'intégration de Payconiq via Adyen, il est crucial de vérifier que cette méthode de paiement est correctement activée dans le système. Comme le montre la figure \ref{fig:activ}, Payconiq est marqué comme actif dans le Cockpit d'administration de SAP Commerce. 
 Cela confirme qu'il est prêt à être utilisé pour le traitement des paiements, garantissant que les transactions effectuées avec Payconiq seront traitées correctement.
@@ -185,7 +185,7 @@ Une fois la commande validée, un e-mail est automatiquement envoyé à l'utilis
     \captionof{figure}{Message de confirmation par email}
     \label{fig:email}
 \end{center}
-\section{Analyse et Correction des Anomalies}
+\section{Analyse et correction des anomalies}
 
 Au cours de cette période, une partie essentielle de mon travail a consisté à résoudre les problèmes détectés par SonarQube, un outil d'analyse statique qui permet d'améliorer la qualité du code. Comme illustré par les captures ci-dessous, SonarQube a mis en évidence plusieurs anomalies critiques, notamment des  duplications de littéraux  et des  complexités cognitives  élevées dans certaines méthodes du projet. Ces problèmes, jugés critiques, nécessitaient une attention immédiate pour garantir une bonne maintenabilité du projet.
 
@@ -203,7 +203,7 @@ La figure \ref{fig:ticket} illustre un exemple de ticket de bug  créé pour sui
     \captionof{figure}{Exemple ticket de debugging}
     \label{fig:ticket}
 \end{center}
-\section{Tests et Validation}
+\section{Tests et validation}
 \subsection{Tests}
 Les tests constituent une étape essentielle pour s'assurer du bon fonctionnement du système et de sa conformité aux attentes. Ils aident à repérer et corriger d'éventuelles anomalies avant la mise en production. Nous avons ainsi mené différents types de tests, allant des tests unitaires aux tests fonctionnels, réalisés sur plusieurs environnements :
 \begin{itemize}
