@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.23)  19 SEP 2024 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.23)  19 SEP 2024 23:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1445,16 +1445,21 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 223--224
  []
 
 [11]
-<Figures/azure DevOps-tickets.png, id=526, 1445.4pt x 813.0375pt>
+<Figures/azure DevOps-tickets.png, id=526, 1156.32pt x 522.15076pt>
 File: Figures/azure DevOps-tickets.png Graphic file (type png)
 <use Figures/azure DevOps-tickets.png>
 Package pdftex.def Info: Figures/azure DevOps-tickets.png  used on input line 233.
-(pdftex.def)             Requested size: 512.1496pt x 288.07826pt.
+(pdftex.def)             Requested size: 540.60236pt x 244.11221pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 234.
 See the caption package documentation for explanation.
+
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 233--234
+ [] 
+ []
 
 [12 <./Figures/Confluence Documentation.png> <./Figures/azure DevOps-tickets.png>]
 <Figures/formation.png, id=533, 1155.1155pt x 549.252pt>
@@ -1554,7 +1559,7 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 13--14
 File: Figures/architecturebacend.png Graphic file (type png)
 <use Figures/architecturebacend.png>
 Package pdftex.def Info: Figures/architecturebacend.png  used on input line 31.
-(pdftex.def)             Requested size: 398.33858pt x 388.44827pt.
+(pdftex.def)             Requested size: 284.52756pt x 277.4597pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1562,11 +1567,11 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [28] [29 <./Figures/architecturebacend.png>]
-<Figures/Test.png, id=634, 1186.4325pt x 679.53876pt>
+<Figures/Test.png, id=634, 1445.4pt x 813.0375pt>
 File: Figures/Test.png Graphic file (type png)
 <use Figures/Test.png>
 Package pdftex.def Info: Figures/Test.png  used on input line 50.
-(pdftex.def)             Requested size: 540.60236pt x 309.64685pt.
+(pdftex.def)             Requested size: 540.60236pt x 304.08192pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1593,12 +1598,12 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 56--57
  [] 
  []
 
-[30 <./Figures/Test.png>] [31 <./Figures/UAT.png>]
-<Figures/Dto.png, id=648, 1203.49625pt x 671.50874pt>
+[30 <./Figures/Test.png> <./Figures/UAT.png>]
+<Figures/Dto.png, id=642, 625.1355pt x 324.61275pt>
 File: Figures/Dto.png Graphic file (type png)
 <use Figures/Dto.png>
 Package pdftex.def Info: Figures/Dto.png  used on input line 79.
-(pdftex.def)             Requested size: 540.60236pt x 301.64333pt.
+(pdftex.def)             Requested size: 540.60236pt x 280.71681pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1610,7 +1615,7 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 79--80
  [] 
  []
 
-[32 <./Figures/Dto.png>]
+[31] [32 <./Figures/Dto.png>]
 <Figures/class.png, id=654, 470.25688pt x 312.16624pt>
 File: Figures/class.png Graphic file (type png)
 <use Figures/class.png>
@@ -1627,8 +1632,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 100--101
  [] 
  []
 
-[33] [34 <./Figures/class.png>]
-<Figures/sequence.png, id=665, 1350.04375pt x 1099.10625pt>
+[33 <./Figures/class.png>]
+<Figures/sequence.png, id=660, 1350.04375pt x 1099.10625pt>
 File: Figures/sequence.png Graphic file (type png)
 <use Figures/sequence.png>
 Package pdftex.def Info: Figures/sequence.png  used on input line 110.
@@ -1644,9 +1649,9 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 110--111
  [] 
  []
 
-[35 <./Figures/sequence.png (PNG copy)>]) [36] (Chapitres/Chapitre4.tex
+[34 <./Figures/sequence.png (PNG copy)>]) [35] (Chapitres/Chapitre4.tex
 Chapitre 4.
-[37
+[36
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1655,7 +1660,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 8.
-<Figures/SAP.jpg, id=678, 321.2pt x 158.5925pt>
+<Figures/SAP.jpg, id=674, 321.2pt x 158.5925pt>
 File: Figures/SAP.jpg Graphic file (type jpg)
 <use Figures/SAP.jpg>
 Package pdftex.def Info: Figures/SAP.jpg  used on input line 11.
@@ -1666,7 +1671,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 12.
 See the caption package documentation for explanation.
 
-<Figures/jee.png, id=681, 212.29312pt x 225.84375pt>
+<Figures/jee.png, id=677, 212.29312pt x 225.84375pt>
 File: Figures/jee.png Graphic file (type png)
 <use Figures/jee.png>
 Package pdftex.def Info: Figures/jee.png  used on input line 21.
@@ -1676,7 +1681,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 22.
 See the caption package documentation for explanation.
 
-<Figures/spring.png, id=684, 401.5pt x 401.5pt>
+<Figures/spring.png, id=680, 401.5pt x 401.5pt>
 File: Figures/spring.png Graphic file (type png)
 <use Figures/spring.png>
 Package pdftex.def Info: Figures/spring.png  used on input line 30.
@@ -1686,8 +1691,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 31.
 See the caption package documentation for explanation.
 
-[38 <./Figures/SAP.jpg> <./Figures/jee.png>]
-<Figures/sonarqube.png, id=692, 1182.4175pt x 654.445pt>
+[37 <./Figures/SAP.jpg> <./Figures/jee.png>]
+<Figures/sonarqube.png, id=688, 1182.4175pt x 654.445pt>
 File: Figures/sonarqube.png Graphic file (type png)
 <use Figures/sonarqube.png>
 Package pdftex.def Info: Figures/sonarqube.png  used on input line 39.
@@ -1698,7 +1703,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 40.
 See the caption package documentation for explanation.
 
-<Figures/Ant.png, id=695, 1204.5pt x 745.78625pt>
+<Figures/Ant.png, id=691, 1204.5pt x 745.78625pt>
 File: Figures/Ant.png Graphic file (type png)
 <use Figures/Ant.png>
 Package pdftex.def Info: Figures/Ant.png  used on input line 48.
@@ -1708,8 +1713,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 49.
 See the caption package documentation for explanation.
 
-[39 <./Figures/spring.png> <./Figures/sonarqube.png>]
-<Figures/junit.png, id=704, 200.75pt x 200.75pt>
+[38 <./Figures/spring.png> <./Figures/sonarqube.png>]
+<Figures/junit.png, id=700, 200.75pt x 200.75pt>
 File: Figures/junit.png Graphic file (type png)
 <use Figures/junit.png>
 Package pdftex.def Info: Figures/junit.png  used on input line 56.
@@ -1720,8 +1725,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 57.
 See the caption package documentation for explanation.
 
-[40 <./Figures/Ant.png> <./Figures/junit.png>]
-<Figures/Screens/VERIFIER QUE payment activer.png, id=715, 1855.93375pt x 309.155pt>
+[39 <./Figures/Ant.png> <./Figures/junit.png>]
+<Figures/Screens/VERIFIER QUE payment activer.png, id=710, 1855.93375pt x 309.155pt>
 File: Figures/Screens/VERIFIER QUE payment activer.png Graphic file (type png)
 <use Figures/Screens/VERIFIER QUE payment activer.png>
 Package pdftex.def Info: Figures/Screens/VERIFIER QUE payment activer.png  used on input line 68.
@@ -1737,7 +1742,7 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 68--69
  [] 
  []
 
-<Figures/Screens/activation du payconiq pour belge.png, id=717, 1858.945pt x 1018.80624pt>
+<Figures/Screens/activation du payconiq pour belge.png, id=712, 1858.945pt x 1018.80624pt>
 File: Figures/Screens/activation du payconiq pour belge.png Graphic file (type png)
 <use Figures/Screens/activation du payconiq pour belge.png>
 Package pdftex.def Info: Figures/Screens/activation du payconiq pour belge.png  used on input line 76.
@@ -1752,7 +1757,7 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 76--77
  [] 
  []
 
-<Figures/Screens/ajouter un produit au panier.png, id=719, 1117.776pt x 610.07925pt>
+<Figures/Screens/ajouter un produit au panier.png, id=714, 1117.776pt x 610.07925pt>
 File: Figures/Screens/ajouter un produit au panier.png Graphic file (type png)
 <use Figures/Screens/ajouter un produit au panier.png>
 Package pdftex.def Info: Figures/Screens/ajouter un produit au panier.png  used on input line 83.
@@ -1767,12 +1772,12 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 83--84
  [] 
  []
 
-[41 <./Figures/Screens/VERIFIER QUE payment activer.png> <./Figures/Screens/activation du payconiq pour belge.png>]
-<Figures/Screens/ajout de l'email.png, id=727, 1117.776pt x 610.07925pt>
+[40 <./Figures/Screens/VERIFIER QUE payment activer.png> <./Figures/Screens/activation du payconiq pour belge.png>]
+<Figures/Screens/ajout de l'email.png, id=723, 1115.367pt x 578.16pt>
 File: Figures/Screens/ajout de l'email.png Graphic file (type png)
 <use Figures/Screens/ajout de l'email.png>
 Package pdftex.def Info: Figures/Screens/ajout de l'email.png  used on input line 90.
-(pdftex.def)             Requested size: 540.60236pt x 295.05957pt.
+(pdftex.def)             Requested size: 540.60236pt x 280.23082pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1784,8 +1789,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 90--91
  [] 
  []
 
-[42 <./Figures/Screens/ajouter un produit au panier.png> <./Figures/Screens/ajout de l'email.png>]
-<Figures/Screens/Infos livraison.png, id=735, 1117.776pt x 610.07925pt>
+[41 <./Figures/Screens/ajouter un produit au panier.png> <./Figures/Screens/ajout de l'email.png>]
+<Figures/Screens/Infos livraison.png, id=731, 1117.776pt x 610.07925pt>
 File: Figures/Screens/Infos livraison.png Graphic file (type png)
 <use Figures/Screens/Infos livraison.png>
 Package pdftex.def Info: Figures/Screens/Infos livraison.png  used on input line 98.
@@ -1801,7 +1806,7 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 98--99
  [] 
  []
 
-<Figures/Screens/code prommo.png, id=737, 1117.776pt x 610.07925pt>
+<Figures/Screens/code prommo.png, id=733, 1117.776pt x 610.07925pt>
 File: Figures/Screens/code prommo.png Graphic file (type png)
 <use Figures/Screens/code prommo.png>
 Package pdftex.def Info: Figures/Screens/code prommo.png  used on input line 105.
@@ -1816,8 +1821,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 105--106
  [] 
  []
 
-[43 <./Figures/Screens/Infos livraison.png>]
-<Figures/Screens/passe au facturation.png, id=744, 1117.776pt x 610.07925pt>
+[42 <./Figures/Screens/Infos livraison.png>]
+<Figures/Screens/passe au facturation.png, id=740, 1117.776pt x 610.07925pt>
 File: Figures/Screens/passe au facturation.png Graphic file (type png)
 <use Figures/Screens/passe au facturation.png>
 Package pdftex.def Info: Figures/Screens/passe au facturation.png  used on input line 112.
@@ -1833,8 +1838,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 112--113
  [] 
  []
 
-[44 <./Figures/Screens/code prommo.png>]
-<Figures/Screens/payment.png, id=751, 1117.776pt x 610.07925pt>
+[43 <./Figures/Screens/code prommo.png>]
+<Figures/Screens/payment.png, id=747, 1117.776pt x 610.07925pt>
 File: Figures/Screens/payment.png Graphic file (type png)
 <use Figures/Screens/payment.png>
 Package pdftex.def Info: Figures/Screens/payment.png  used on input line 120.
@@ -1850,8 +1855,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 120--121
  [] 
  []
 
-[45 <./Figures/Screens/passe au facturation.png>]
-<Figures/Screens/redirection.png, id=758, 1024.82875pt x 602.25pt>
+[44 <./Figures/Screens/passe au facturation.png>]
+<Figures/Screens/redirection.png, id=754, 1024.82875pt x 602.25pt>
 File: Figures/Screens/redirection.png Graphic file (type png)
 <use Figures/Screens/redirection.png>
 Package pdftex.def Info: Figures/Screens/redirection.png  used on input line 127.
@@ -1867,8 +1872,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 127--128
  [] 
  []
 
-[46 <./Figures/Screens/payment.png>]
-<Figures/Screens/patience.jpeg, id=765, 1084.05pt x 1020.81375pt>
+[45 <./Figures/Screens/payment.png>]
+<Figures/Screens/patience.jpeg, id=760, 1084.05pt x 1020.81375pt>
 File: Figures/Screens/patience.jpeg Graphic file (type jpg)
 <use Figures/Screens/patience.jpeg>
 Package pdftex.def Info: Figures/Screens/patience.jpeg  used on input line 135.
@@ -1879,8 +1884,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 136.
 See the caption package documentation for explanation.
 
-[47 <./Figures/Screens/redirection.png> <./Figures/Screens/patience.jpeg>]
-<Figures/Screens/montant.jpeg, id=772, 1084.05pt x 1258.7025pt>
+[46 <./Figures/Screens/redirection.png> <./Figures/Screens/patience.jpeg>]
+<Figures/Screens/montant.jpeg, id=768, 1084.05pt x 1258.7025pt>
 File: Figures/Screens/montant.jpeg Graphic file (type jpg)
 <use Figures/Screens/montant.jpeg>
 Package pdftex.def Info: Figures/Screens/montant.jpeg  used on input line 142.
@@ -1891,7 +1896,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 143.
 See the caption package documentation for explanation.
 
-<Figures/Screens/reussi.jpeg, id=774, 1084.05pt x 1264.725pt>
+<Figures/Screens/reussi.jpeg, id=770, 1084.05pt x 1264.725pt>
 File: Figures/Screens/reussi.jpeg Graphic file (type jpg)
 <use Figures/Screens/reussi.jpeg>
 Package pdftex.def Info: Figures/Screens/reussi.jpeg  used on input line 149.
@@ -1901,8 +1906,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 150.
 See the caption package documentation for explanation.
 
-[48 <./Figures/Screens/montant.jpeg>]
-<Figures/Screens/confirmation du commande.png, id=780, 1117.776pt x 610.07925pt>
+[47 <./Figures/Screens/montant.jpeg>]
+<Figures/Screens/confirmation du commande.png, id=776, 1117.776pt x 610.07925pt>
 File: Figures/Screens/confirmation du commande.png Graphic file (type png)
 <use Figures/Screens/confirmation du commande.png>
 Package pdftex.def Info: Figures/Screens/confirmation du commande.png  used on input line 156.
@@ -1918,8 +1923,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 156--157
  [] 
  []
 
-[49 <./Figures/Screens/reussi.jpeg>]
-<Figures/Screens/resumer commande.png, id=786, 1117.776pt x 610.07925pt>
+[48 <./Figures/Screens/reussi.jpeg>]
+<Figures/Screens/resumer commande.png, id=782, 1117.776pt x 610.07925pt>
 File: Figures/Screens/resumer commande.png Graphic file (type png)
 <use Figures/Screens/resumer commande.png>
 Package pdftex.def Info: Figures/Screens/resumer commande.png  used on input line 163.
@@ -1935,8 +1940,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 163--164
  [] 
  []
 
-[50 <./Figures/Screens/confirmation du commande.png>]
-<Figures/Screens/annulation de commande.png, id=793, 1115.367pt x 609.477pt>
+[49 <./Figures/Screens/confirmation du commande.png>]
+<Figures/Screens/annulation de commande.png, id=789, 1115.367pt x 609.477pt>
 File: Figures/Screens/annulation de commande.png Graphic file (type png)
 <use Figures/Screens/annulation de commande.png>
 Package pdftex.def Info: Figures/Screens/annulation de commande.png  used on input line 170.
@@ -1952,8 +1957,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 170--171
  [] 
  []
 
-[51 <./Figures/Screens/resumer commande.png>]
-<Figures/Screens/Backoffice commande.png, id=800, 1859.94875pt x 1016.79875pt>
+[50 <./Figures/Screens/resumer commande.png>]
+<Figures/Screens/Backoffice commande.png, id=796, 1859.94875pt x 1016.79875pt>
 File: Figures/Screens/Backoffice commande.png Graphic file (type png)
 <use Figures/Screens/Backoffice commande.png>
 Package pdftex.def Info: Figures/Screens/Backoffice commande.png  used on input line 177.
@@ -1969,8 +1974,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 177--178
  [] 
  []
 
-[52 <./Figures/Screens/annulation de commande.png>]
-<Figures/Screens/confirmation par mail.png, id=807, 1114.1625pt x 609.477pt>
+[51 <./Figures/Screens/annulation de commande.png>]
+<Figures/Screens/confirmation par mail.png, id=802, 1114.1625pt x 609.477pt>
 File: Figures/Screens/confirmation par mail.png Graphic file (type png)
 <use Figures/Screens/confirmation par mail.png>
 Package pdftex.def Info: Figures/Screens/confirmation par mail.png  used on input line 184.
@@ -1986,8 +1991,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 184--185
  [] 
  []
 
-[53 <./Figures/Screens/Backoffice commande.png>]
-<Figures/Screens/bug.png, id=813, 1011.78pt x 427.5975pt>
+[52 <./Figures/Screens/Backoffice commande.png>]
+<Figures/Screens/bug.png, id=809, 1011.78pt x 427.5975pt>
 File: Figures/Screens/bug.png Graphic file (type png)
 <use Figures/Screens/bug.png>
 Package pdftex.def Info: Figures/Screens/bug.png  used on input line 195.
@@ -2003,8 +2008,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 195--196
  [] 
  []
 
-[54 <./Figures/Screens/confirmation par mail.png>]
-<Figures/bug1.png, id=819, 1380.15625pt x 557.08125pt>
+[53 <./Figures/Screens/confirmation par mail.png>]
+<Figures/bug1.png, id=815, 1380.15625pt x 557.08125pt>
 File: Figures/bug1.png Graphic file (type png)
 <use Figures/bug1.png>
 Package pdftex.def Info: Figures/bug1.png  used on input line 211.
@@ -2020,8 +2025,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 211--212
  [] 
  []
 
-[55 <./Figures/Screens/bug.png>]
-<Figures/Screens/ticket.png, id=826, 1254.6875pt x 414.54875pt>
+[54 <./Figures/Screens/bug.png>]
+<Figures/Screens/ticket.png, id=822, 1254.6875pt x 414.54875pt>
 File: Figures/Screens/ticket.png Graphic file (type png)
 <use Figures/Screens/ticket.png>
 Package pdftex.def Info: Figures/Screens/ticket.png  used on input line 221.
@@ -2037,8 +2042,8 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 221--222
  [] 
  []
 
-[56 <./Figures/bug1.png> <./Figures/Screens/ticket.png>]
-<Figures/Screens/couvrage.png, id=833, 1852.9225pt x 404.51125pt>
+[55 <./Figures/bug1.png> <./Figures/Screens/ticket.png>]
+<Figures/Screens/couvrage.png, id=829, 1852.9225pt x 404.51125pt>
 File: Figures/Screens/couvrage.png Graphic file (type png)
 <use Figures/Screens/couvrage.png>
 Package pdftex.def Info: Figures/Screens/couvrage.png  used on input line 232.
@@ -2054,11 +2059,11 @@ Overfull \hbox (12.58754pt too wide) in paragraph at lines 232--233
  [] 
  []
 
-<Figures/Screens/reportSonar.png, id=834, 1467.4825pt x 591.20876pt>
+<Figures/Screens/reportSonar.png, id=830, 880.4895pt x 334.24875pt>
 File: Figures/Screens/reportSonar.png Graphic file (type png)
 <use Figures/Screens/reportSonar.png>
 Package pdftex.def Info: Figures/Screens/reportSonar.png  used on input line 238.
-(pdftex.def)             Requested size: 512.1496pt x 206.33076pt.
+(pdftex.def)             Requested size: 512.1496pt x 194.43053pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 239.
@@ -2069,7 +2074,7 @@ Overfull \hbox (12.58754pt too wide) in paragraph at lines 238--239
  [] 
  []
 
-[57 <./Figures/Screens/couvrage.png> <./Figures/Screens/reportSonar.png>] [58]) (Endmatter/Conclusion.tex [59]) (Endmatter/Bibliography.tex [60
+[56 <./Figures/Screens/couvrage.png> <./Figures/Screens/reportSonar.png>] [57]) (Endmatter/Conclusion.tex [58]) (Endmatter/Bibliography.tex [59
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
@@ -2086,7 +2091,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 [][]\T1/lmr/bx/n/12 https://www.neosoft.fr/nos-publications/blog-tech/les-bases-de-la-securite-en-
  []
 
-) [61
+) [60
 
 ] (main.aux (Frontmatter/Page_de_Garde_EN.aux))
  ***********
@@ -2381,17 +2386,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 ### semi simple group (level 1) entered at line 40 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41928 strings out of 474486
- 791055 string characters out of 5739471
+ 41927 strings out of 474486
+ 791048 string characters out of 5739471
  1961542 words of memory out of 5000000
  63166 multiletter control sequences out of 15000+600000
  634043 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,12n,96p,2403b,3127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14bf.pfb>
-Output written on main.pdf (76 pages, 5101419 bytes).
+Output written on main.pdf (75 pages, 5141779 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
+ 958 PDF objects out of 1000 (max. 8388607)
+ 206 named destinations out of 1000 (max. 500000)
  663 words of extra memory for PDF output out of 10000 (max. 10000000)
 

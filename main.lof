@@ -18,36 +18,36 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture globale de l'application E-commerce}}{27}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Architecture backend simplifiée de l'application E-commerce}}{29}{figure.3.2}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Architecture de livraison et de test simplifiée}}{30}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Environnements de test et production}}{31}{figure.3.4}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Environnements de test et production}}{30}{figure.3.4}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Architecture applicative de l'application E-commerce}}{32}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagramme de classe}}{34}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagramme de séquence }}{35}{figure.3.7}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagramme de classe}}{33}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagramme de séquence }}{34}{figure.3.7}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo de SAP \cite {SAP}}}{38}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo de JEE \cite {JEE}}}{38}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Logo de Spring \cite {spring}}}{39}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Logo de SonarQube \cite {sonarqube}}}{39}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Logo d'Ant \cite {ant}}}{40}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Logo de JUnit\cite {junit}}}{40}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Activation de Payconiq}}{41}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Disponibilité de Payconiq dans la boutique en ligne}}{41}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Ajout d'un produit au panier}}{42}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Saisir les informations personnelles}}{42}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Mode de livraison}}{43}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Saisir un code promo}}{44}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Facturation}}{45}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Choix de mode de paiement}}{46}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Finalisation du paiement via l'API Adyen}}{47}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Écran de traitement en cours}}{47}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Montant à payer}}{48}{figure.4.17}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Paiement reussi}}{49}{figure.4.18}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Confirmation de la commande}}{50}{figure.4.19}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Informations de la commande}}{51}{figure.4.20}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Message d'erreur en cas d'annulation du paiement}}{52}{figure.4.21}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Confirmation de la commande dans le backoffice}}{53}{figure.4.22}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Message de confirmation par email}}{54}{figure.4.23}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Bugs détectés par SonarQube}}{55}{figure.4.24}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Analyse avec SonarLint après correction}}{56}{figure.4.25}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Exemple ticket de debugging}}{56}{figure.4.26}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Couverture de code à 100\%}}{57}{figure.4.27}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Succès de tous les cas de test}}{57}{figure.4.28}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo de SAP \cite {SAP}}}{37}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo de JEE \cite {JEE}}}{37}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Logo de Spring \cite {spring}}}{38}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Logo de SonarQube \cite {sonarqube}}}{38}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Logo d'Ant \cite {ant}}}{39}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Logo de JUnit\cite {junit}}}{39}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Activation de Payconiq}}{40}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Disponibilité de Payconiq dans la boutique en ligne}}{40}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Ajout d'un produit au panier}}{41}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Saisir les informations personnelles}}{41}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Mode de livraison}}{42}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Saisir un code promo}}{43}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Facturation}}{44}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Choix de mode de paiement}}{45}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Finalisation du paiement via l'API Adyen}}{46}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Écran de traitement en cours}}{46}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Montant à payer}}{47}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Paiement reussi}}{48}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Confirmation de la commande}}{49}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Informations de la commande}}{50}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Message d'erreur en cas d'annulation du paiement}}{51}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Confirmation de la commande dans le backoffice}}{52}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Message de confirmation par email}}{53}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Bugs détectés par SonarQube}}{54}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Analyse avec SonarLint après correction}}{55}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Exemple ticket de debugging}}{55}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Couverture de code à 100\%}}{56}{figure.4.27}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Succès de tous les cas de test}}{56}{figure.4.28}%

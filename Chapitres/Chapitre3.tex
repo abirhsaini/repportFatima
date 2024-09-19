@@ -28,7 +28,7 @@ Lorsqu'un client effectue un paiement sur le site, une requête est envoyée à 
 Notre solution est basée sur la plate-forme SAP Hybris Et suit donc l'architecture presentée ci-dessous :
 \begin{center}
     \centering
-    \includegraphics[width=14cm]{Figures/architecturebacend.png}
+    \includegraphics[width=10cm]{Figures/architecturebacend.png}
     \captionof{figure}{Architecture backend simplifiée de l'application E-commerce}
     \label{fig:processus}
 \end{center}
@@ -61,7 +61,7 @@ Cette section présente le processus de déploiement du projet, en détaillant l
 
 
 \subsubsection{Architecture interne}
-L'architecture interne est implémentée au sein de SQLI et comprend un serveur d'intégration (INT) et un serveur SonarQube pour l'analyse de la qualité du code. Les développeurs effectuent des commits sur le dépôt Azure DevOps, puis un serveur d'intégration continue, Jenkins, récupère les dernières versions depuis ce dépôt pour effectuer une compilation automatique avec ANT. Jenkins lance ensuite une analyse SonarQube pour garantir la qualité du code. Après l'analyse SonarQube, le serveur vérifie que le nombre d'erreurs détectées ne dépasse pas les limites prédéfinies en fonction de la gravité des erreurs et des quotas définis sur le serveur SonarQube. Si ces contrôles sont satisfaits, Jenkins déploie le code sur le serveur d'intégration (INT). Ce processus d'intégration continue se répète tout au long du sprint de trois semaines.
+L'architecture interne est implémentée au sein de SQLI et comprend un serveur d'intégration (INT) et un serveur SonarQube pour l'analyse de la qualité du code. Les développeurs effectuent des commits sur le dépôt Azure DevOps, puis un serveur d'intégration continue, Azure piplines, récupère les dernières versions depuis ce dépôt pour effectuer une compilation automatique avec ANT. Azure Piplines lance ensuite une analyse SonarQube pour garantir la qualité du code. Après l'analyse SonarQube, le serveur vérifie que le nombre d'erreurs détectées ne dépasse pas les limites prédéfinies en fonction de la gravité des erreurs et des quotas définis sur le serveur SonarQube. Si ces contrôles sont satisfaits, Azure Piplines déploie le code sur le serveur d'intégration (INT). Ce processus d'intégration continue se répète tout au long du sprint de trois semaines.
 
 
 \subsubsection{Architecture externe}

@@ -45,17 +45,17 @@
 \contentsline {subsection}{\numberline {3.1.3}Environnent de livraison et de test }{30}{subsection.3.1.3}%
 \contentsline {subsubsection}{\numberline {3.1.3.1}Architecture interne}{31}{subsubsection.3.1.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.3.2}Architecture externe}{31}{subsubsection.3.1.3.2}%
-\contentsline {subsection}{\numberline {3.1.4}Architecture applicative}{32}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Conception detaillée}{34}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Diagramme de classe}{34}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Diagramme de séquence}{35}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {4}Implémentation et validation}{37}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Technologies utilisées}{38}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Illustration de l'intégration de la méthode de paiement}{40}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Analyse et correction des anomalies}{54}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Tests et validation}{57}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Tests}{57}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Validation des besoins fonctionnels}{58}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Validation des besoins non fonctionnels}{58}{subsection.4.4.3}%
-\contentsline {chapter}{Conclusion}{60}{appendix*.17}%
-\contentsline {chapter}{Références}{60}{appendix*.17}%
+\contentsline {subsection}{\numberline {3.1.4}Architecture applicative}{31}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Conception detaillée}{33}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Diagramme de classe}{33}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Diagramme de séquence}{34}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Implémentation et validation}{36}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Technologies utilisées}{37}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Illustration de l'intégration de la méthode de paiement}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Analyse et correction des anomalies}{53}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Tests et validation}{56}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Tests}{56}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Validation des besoins fonctionnels}{57}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Validation des besoins non fonctionnels}{57}{subsection.4.4.3}%
+\contentsline {chapter}{Conclusion}{59}{appendix*.17}%
+\contentsline {chapter}{Références}{59}{appendix*.17}%
