@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.23)  17 SEP 2024 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.23)  19 SEP 2024 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1498,16 +1498,16 @@ Chapitre 2.
 <Figures/processus.jpeg, id=568, 1528.71124pt x 561.09625pt>
 File: Figures/processus.jpeg Graphic file (type jpg)
 <use Figures/processus.jpeg>
-Package pdftex.def Info: Figures/processus.jpeg  used on input line 37.
+Package pdftex.def Info: Figures/processus.jpeg  used on input line 38.
 (pdftex.def)             Requested size: 540.60236pt x 198.42429pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 38.
+(caption)                particular \caption on input line 39.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 37--38
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 38--39
  [] 
  []
 
@@ -1515,16 +1515,16 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 37--38
 <Figures/usecase.png, id=582, 678.03313pt x 382.42876pt>
 File: Figures/usecase.png Graphic file (type png)
 <use Figures/usecase.png>
-Package pdftex.def Info: Figures/usecase.png  used on input line 73.
+Package pdftex.def Info: Figures/usecase.png  used on input line 74.
 (pdftex.def)             Requested size: 540.60236pt x 304.92805pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 74.
+(caption)                particular \caption on input line 75.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 73--74
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 74--75
  [] 
  []
 
@@ -1628,11 +1628,11 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 100--101
  []
 
 [33] [34 <./Figures/class.png>]
-<Figures/sequence.png, id=665, 955.57pt x 873.2625pt>
+<Figures/sequence.png, id=665, 1350.04375pt x 1099.10625pt>
 File: Figures/sequence.png Graphic file (type png)
 <use Figures/sequence.png>
 Package pdftex.def Info: Figures/sequence.png  used on input line 110.
-(pdftex.def)             Requested size: 540.60236pt x 494.03383pt.
+(pdftex.def)             Requested size: 540.60236pt x 440.12106pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2389,7 +2389,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  100i,12n,96p,2403b,3127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb><C:/Users/Fatima TAOUFIQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14bf.pfb>
-Output written on main.pdf (76 pages, 5207987 bytes).
+Output written on main.pdf (76 pages, 5101419 bytes).
 PDF statistics:
  962 PDF objects out of 1000 (max. 8388607)
  207 named destinations out of 1000 (max. 500000)
